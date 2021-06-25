@@ -1929,7 +1929,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.44
+        "zoomFactor": 0.25999999999999984
       },
       "objectsGroups": [
         {
@@ -2185,7 +2185,7 @@
           "persistentUuid": "85871cc7-da1f-4efe-a07d-8f0c48482120",
           "width": 133,
           "x": 1149,
-          "y": 530,
+          "y": 532,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2201,7 +2201,7 @@
           "persistentUuid": "1cf3b30b-3f1b-4b8b-a1a0-2b7549a61f42",
           "width": 0,
           "x": 1289,
-          "y": 590,
+          "y": 592,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2219,6 +2219,22 @@
           "x": 250,
           "y": 995,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txtangulo",
+          "persistentUuid": "1c3005dd-2091-41ae-88cd-86468643de1a",
+          "width": 0,
+          "x": 1289,
+          "y": 590,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3639,7 +3655,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.9400000000000002
+        "zoomFactor": 0.33999999999999986
       },
       "objectsGroups": [
         {
@@ -4660,6 +4676,30 @@
                     "transferidorAngular"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "paineltxt",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -4793,6 +4833,30 @@
                   "parameters": [
                     "painel",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "paineltxt",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
