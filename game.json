@@ -18581,6 +18581,150 @@
                     "peca03"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "peca01",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_001",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_001",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "peca02",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_002",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_002",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "peca03",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_003",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_003",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_004",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_004",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -18614,18 +18758,6 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "=",
-                    "100"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -18656,20 +18788,8 @@
                   },
                   "parameters": [
                     "txtTituloGONIOMETRO",
-                    "=",
-                    "242"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
                     "+",
-                    "+5"
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 },
@@ -18712,8 +18832,55 @@
                     "value": "Montre"
                   },
                   "parameters": [
+                    "g01",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
                     "peca01",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "peca01",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_001",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_001",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -18745,8 +18912,55 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "g01",
+                    "g02",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "peca02",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "peca02",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_002",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_002",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -18778,8 +18992,55 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "peca02",
+                    "g03",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "peca03",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "peca03",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_003",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_003",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -18811,8 +19072,32 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "g02",
+                    "g04",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ind_004",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt_004",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -18838,83 +19123,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "peca03",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "\"timer\"",
-                    "6"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "g03",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "\"timer\"",
-                    "7"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "g04",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
