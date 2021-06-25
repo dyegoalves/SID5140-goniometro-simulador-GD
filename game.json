@@ -16319,6 +16319,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -16352,18 +16364,6 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "=",
-                    "100"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -16381,7 +16381,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "0.8"
+                    "0.5"
                   ],
                   "subInstructions": []
                 }
@@ -16394,20 +16394,8 @@
                   },
                   "parameters": [
                     "txtTituloGONIOMETRO",
-                    "=",
-                    "242"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
                     "+",
-                    "+5"
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 },
@@ -16916,16 +16904,37 @@
                     "150*TimeDelta()"
                   ],
                   "subInstructions": []
-                },
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "TextObject::String"
+                    "value": "ObjectTimer"
                   },
                   "parameters": [
-                    "aguardeTrocaTxt",
-                    "=",
-                    "\"Clique em Avançar para proseguir ou Voltar para retornar a tela anterior\""
+                    "txtTituloGONIOMETRO",
+                    "\"timer\"",
+                    "8"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "liberarAvancar",
+                    "True"
                   ],
                   "subInstructions": []
                 },
@@ -16943,11 +16952,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetSceneVariableAsBoolean"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
-                    "liberarAvancar",
-                    "True"
+                    "aguardeTrocaTxt",
+                    "=",
+                    "\"Clique em Avançar para proseguir ou Voltar para retornar a tela anterior\""
                   ],
                   "subInstructions": []
                 }
