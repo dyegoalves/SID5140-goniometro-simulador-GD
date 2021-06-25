@@ -4700,6 +4700,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -4741,8 +4753,8 @@
                   },
                   "parameters": [
                     "txtTituloGONIOMETRO",
-                    "=",
-                    "100"
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -4768,30 +4780,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "=",
-                    "242"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "+",
-                    "+5"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -8933,6 +8921,66 @@
                     "goniometroP"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "=",
+                    "0\n"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txt01",
+                    "=",
+                    "0\n"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "=",
+                    "0\n"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "paineltxt",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "goniometroP",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -8973,9 +9021,9 @@
                     "value": "TextObject::Opacity"
                   },
                   "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "=",
-                    "100"
+                    "txt01",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -9008,20 +9056,8 @@
                   },
                   "parameters": [
                     "txtTituloGONIOMETRO",
-                    "=",
-                    "242"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
                     "+",
-                    "+5"
+                    "100*TimeDelta()"
                   ],
                   "subInstructions": []
                 },
@@ -9068,6 +9104,30 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "paineltxt",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -9099,6 +9159,18 @@
                   "parameters": [
                     "goniometroP",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "goniometroP",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
