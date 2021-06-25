@@ -18106,9 +18106,79 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.47
+        "zoomFactor": 0.32999999999999985
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "g1",
+          "objects": [
+            {
+              "name": "tracoNonio"
+            },
+            {
+              "name": "txtTracoNonio"
+            }
+          ]
+        },
+        {
+          "name": "g2",
+          "objects": [
+            {
+              "name": "grDiscVernier"
+            },
+            {
+              "name": "txtGrDiscVernier"
+            }
+          ]
+        },
+        {
+          "name": "g3",
+          "objects": [
+            {
+              "name": "grDisc"
+            },
+            {
+              "name": "txtGrDisc"
+            }
+          ]
+        },
+        {
+          "name": "g4",
+          "objects": [
+            {
+              "name": "lig11Seta"
+            },
+            {
+              "name": "txtLig11"
+            }
+          ]
+        },
+        {
+          "name": "g5",
+          "objects": [
+            {
+              "name": "refSeta"
+            },
+            {
+              "name": "txtRefSeta"
+            }
+          ]
+        },
+        {
+          "name": "g6",
+          "objects": [
+            {
+              "name": "sahSeta"
+            },
+            {
+              "name": "txtSah01"
+            },
+            {
+              "name": "txtSah02"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "liberarAvancar",
@@ -18437,7 +18507,7 @@
           "height": 28,
           "layer": "",
           "locked": false,
-          "name": "grDiscSwern",
+          "name": "grDiscVernier",
           "persistentUuid": "0b0dbadc-4707-4a5c-8e43-5a242baadb96",
           "width": 450,
           "x": 888,
@@ -18453,7 +18523,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "txtGrDiscSwern",
+          "name": "txtGrDiscVernier",
           "persistentUuid": "8f884b82-31b7-4bb6-b406-c5ae1714a425",
           "width": 0,
           "x": 989,
@@ -19274,7 +19344,7 @@
           }
         },
         {
-          "name": "grDiscSwern",
+          "name": "grDiscVernier",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -19315,7 +19385,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "txtGrDiscSwern",
+          "name": "txtGrDiscVernier",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -19634,9 +19704,328 @@
                     "aguardeTrocaTxt"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "g1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "g2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "g3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "g4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "g5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "g6"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "pecaP01"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Painel01"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txtPainel"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "pecaP01",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Painel01",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "tracoNonio",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTracoNonio",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "grDiscVernier",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtGrDiscVernier",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "grDisc",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtGrDisc",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "lig11Seta",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtLig11",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "refSeta",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtRefSeta",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "sahSeta",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtSah01",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtSah02",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Painel01"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "ANIMA OBJECTOS E GRUPOS",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -19651,7 +20040,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "0.5"
+                    "0.3"
                   ],
                   "subInstructions": []
                 }
@@ -19665,52 +20054,6 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "=",
-                    "100"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "\"timer\"",
-                    "0.8"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "=",
-                    "242"
                   ],
                   "subInstructions": []
                 },
@@ -19722,18 +20065,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "+",
-                    "+5"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "aguardeTrocaTxt",
-                    ""
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -19758,7 +20090,88 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "aguardeTrocaTxt",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "pecaP01",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Painel01",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "pecaP01",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Painel01",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -19774,12 +20187,48 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "2"
+                    "2\n"
                   ],
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "g1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTracoNonio",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "tracoNonio",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -19800,7 +20249,43 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "g2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtGrDiscVernier",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "grDiscVernier",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -19821,7 +20306,43 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "g3",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "grDisc",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtGrDisc",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -19842,7 +20363,43 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "g4",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtLig11",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "lig11Seta",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -19863,7 +20420,43 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "g5",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "refSeta",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtRefSeta",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -19880,6 +20473,75 @@
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
                     "7"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "g6",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "sahSeta",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtSah01",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtSah02",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "\"timer\"",
+                    "8"
                   ],
                   "subInstructions": []
                 }
@@ -19971,7 +20633,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"goniometro_simulador7\"",
+                    "\"goniometro_simulador8\"",
                     ""
                   ],
                   "subInstructions": []
@@ -20028,7 +20690,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"goniometro_simulador5\"",
+                    "\"goniometro_simulador6\"",
                     ""
                   ],
                   "subInstructions": []
