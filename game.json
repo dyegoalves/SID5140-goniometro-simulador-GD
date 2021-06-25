@@ -1929,7 +1929,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.47999999999999976
+        "zoomFactor": 0.44
       },
       "objectsGroups": [
         {
@@ -1958,7 +1958,7 @@
           ]
         },
         {
-          "name": "Angulos",
+          "name": "angulos",
           "objects": [
             {
               "name": "angulo"
@@ -2108,12 +2108,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 260,
+          "height": 228,
           "layer": "",
           "locked": false,
           "name": "paineltxt",
           "persistentUuid": "5c95584f-b33a-4488-ba7f-c0ef996bfeaa",
-          "width": 600,
+          "width": 587,
           "x": 84,
           "y": 201,
           "zOrder": 9,
@@ -2130,8 +2130,8 @@
           "name": "txtPainel",
           "persistentUuid": "13eb71f2-353a-4f71-a04e-37028356e1e9",
           "width": 545,
-          "x": 101,
-          "y": 259,
+          "x": 105,
+          "y": 268,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2146,8 +2146,8 @@
           "name": "reguaBot",
           "persistentUuid": "fa88a242-08f7-4bae-a45d-712277f3d53b",
           "width": 800,
-          "x": 1000,
-          "y": 789,
+          "x": 1796,
+          "y": 793,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2162,8 +2162,8 @@
           "name": "reguaTop",
           "persistentUuid": "5e5f23fb-c458-4b53-8516-dc491573dfe9",
           "width": 800,
-          "x": 1005,
-          "y": 784,
+          "x": 1801,
+          "y": 763,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2184,8 +2184,8 @@
           "name": "angulo",
           "persistentUuid": "85871cc7-da1f-4efe-a07d-8f0c48482120",
           "width": 133,
-          "x": 1257,
-          "y": 536,
+          "x": 1149,
+          "y": 530,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2200,8 +2200,8 @@
           "name": "txtangulo",
           "persistentUuid": "1cf3b30b-3f1b-4b8b-a1a0-2b7549a61f42",
           "width": 0,
-          "x": 1407,
-          "y": 573,
+          "x": 1289,
+          "y": 590,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2721,14 +2721,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 4,
+                        "y": 60
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 4,
+                        "y": 60
                       },
                       "customCollisionMask": []
                     }
@@ -2814,6 +2814,28 @@
             "g": 74,
             "r": 74
           }
+        },
+        {
+          "name": "block",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": true,
+          "clearBetweenFrames": false
         }
       ],
       "events": [
@@ -3067,7 +3089,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "reguas"
+                    "angulos"
                   ],
                   "subInstructions": []
                 },
@@ -3077,7 +3099,79 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "Angulos"
+                    "reguas"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "paineltxt",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "angulo",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtangulo",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "reguas",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "=",
+                    "100"
                   ],
                   "subInstructions": []
                 }
@@ -3113,18 +3207,6 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
-                    "=",
-                    "100"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3142,7 +3224,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "0.8"
+                    "0.6"
                   ],
                   "subInstructions": []
                 }
@@ -3155,20 +3237,8 @@
                   },
                   "parameters": [
                     "txtTituloGONIOMETRO",
-                    "=",
-                    "242"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "txtTituloGONIOMETRO",
                     "+",
-                    "+5"
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -3188,7 +3258,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "2"
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -3201,6 +3271,81 @@
                   },
                   "parameters": [
                     "painel",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "reguas",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "paineltxt",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtPainel",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "reguas",
+                    "+",
+                    "100*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "reguaBot",
+                    "810",
+                    "810",
+                    "600",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "reguaTop",
+                    "780",
+                    "780",
+                    "600",
                     ""
                   ],
                   "subInstructions": []
@@ -3230,14 +3375,35 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Montre"
+                    "value": "Arreter"
                   },
                   "parameters": [
-                    "reguas",
-                    ""
+                    "reguas"
                   ],
                   "subInstructions": []
-                },
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "txtTituloGONIOMETRO",
+                    "\"timer\"",
+                    "2.5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -3279,8 +3445,32 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Angulos",
+                    "angulos",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "angulo",
+                    "+",
+                    "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "txtangulo",
+                    "+",
+                    "150*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -3300,7 +3490,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "4"
+                    "4.5"
                   ],
                   "subInstructions": []
                 }
