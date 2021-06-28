@@ -20,7 +20,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\goniometro_simulador",
+    "latestCompilationDirectory": "C:\\Users\\dyego.alves\\Desktop\\app",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -22182,8 +22182,8 @@
           "name": "painel01g1",
           "persistentUuid": "3a98e120-5221-4247-bef1-f4a79bd3200d",
           "width": 700,
-          "x": 1179,
-          "y": 175,
+          "x": 1530,
+          "y": 368,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -22231,7 +22231,7 @@
           "persistentUuid": "beace11b-3129-471e-a60d-8aa87c583f73",
           "width": 0,
           "x": 460,
-          "y": 882,
+          "y": 877,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -22247,7 +22247,7 @@
           "persistentUuid": "9ede5010-e49c-45d1-b933-9d49f6f2a3a6",
           "width": 1200,
           "x": 11,
-          "y": 330,
+          "y": 332,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -22345,6 +22345,38 @@
           "x": 487,
           "y": 263,
           "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "tt",
+          "persistentUuid": "41e2b4ff-3a94-4702-bb5a-a8affdf5e644",
+          "width": 0,
+          "x": 1493,
+          "y": 557,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "tt",
+          "persistentUuid": "02b01d68-35e8-4381-9460-321bfade5667",
+          "width": 0,
+          "x": 1145,
+          "y": 201,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22769,8 +22801,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 970,
+                        "y": 355.546875
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -23075,6 +23107,28 @@
             "g": 74,
             "r": 74
           }
+        },
+        {
+          "name": "tt",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
         }
       ],
       "events": [
@@ -23281,7 +23335,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "ANIMACAO TEXTO SHOW/HIDEN",
+          "name": "ANIMACAO TEXTO SHOW / HIDEN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -23465,6 +23519,30 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -23586,12 +23664,108 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "+",
+                    "800*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "+",
+                    "1400*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "tt",
+                    "painel01g1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "TextObject::Opacity"
                   },
                   "parameters": [
                     "txtPainel01g1",
                     "+",
                     "150*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "=",
+                    "700"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "=",
+                    "364"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "+",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "painel01g1",
+                    "+",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -23611,7 +23785,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "2\n"
+                    "2.5\n"
                   ],
                   "subInstructions": []
                 }
@@ -23657,7 +23831,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "3"
+                    "4"
                   ],
                   "subInstructions": []
                 }
@@ -23703,7 +23877,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "4"
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -23749,7 +23923,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "5"
+                    "6"
                   ],
                   "subInstructions": []
                 }
@@ -23795,7 +23969,7 @@
                   "parameters": [
                     "txtTituloGONIOMETRO",
                     "\"timer\"",
-                    "6"
+                    "7"
                   ],
                   "subInstructions": []
                 }
