@@ -1944,12 +1944,102 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "01.png",
+        "file": "bt01.png",
         "kind": "image",
         "metadata": "",
-        "name": "01.png",
+        "name": "bt01.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teclado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teclado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt08.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bt00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bt00.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -24169,9 +24259,51 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.2300000000000003
+        "zoomFactor": 0.3900000000000008
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "tecladoGraus",
+          "objects": [
+            {
+              "name": "teclado"
+            },
+            {
+              "name": "bt01"
+            },
+            {
+              "name": "bt02"
+            },
+            {
+              "name": "bt03"
+            },
+            {
+              "name": "bt04"
+            },
+            {
+              "name": "bt05"
+            },
+            {
+              "name": "bt06"
+            },
+            {
+              "name": "bt07"
+            },
+            {
+              "name": "bt08"
+            },
+            {
+              "name": "bt09"
+            },
+            {
+              "name": "bt00"
+            },
+            {
+              "name": "btfc"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "liberarAvancar",
@@ -24180,6 +24312,11 @@
         },
         {
           "name": "liberarVoltar",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "clikcbt",
           "type": "boolean",
           "value": false
         }
@@ -24540,14 +24677,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 768,
+          "height": 802,
           "layer": "",
           "locked": false,
           "name": "teclado",
           "persistentUuid": "15f94f97-9d07-4eda-b747-b40c8139602b",
-          "width": 581,
-          "x": 1107,
-          "y": -446,
+          "width": 608,
+          "x": 361,
+          "y": 145,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -24560,14 +24697,20 @@
           "layer": "",
           "locked": false,
           "name": "bt01",
-          "persistentUuid": "1a4d8ec9-f5c5-47de-b158-fcda90df823e",
+          "persistentUuid": "72c72ecc-5096-464d-8d73-d375d3a7722a",
           "width": 150,
-          "x": 833,
-          "y": -702,
+          "x": 458,
+          "y": 354,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "zordem",
+              "type": "string",
+              "value": "48"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -24576,10 +24719,10 @@
           "layer": "",
           "locked": false,
           "name": "bt02",
-          "persistentUuid": "766dfbd3-df2f-4817-aefb-40305a993c88",
+          "persistentUuid": "41a342a5-03e4-43cc-9449-070d54a38244",
           "width": 150,
-          "x": 1024,
-          "y": -704,
+          "x": 661,
+          "y": 353,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -24592,11 +24735,155 @@
           "layer": "",
           "locked": false,
           "name": "bt03",
-          "persistentUuid": "1c4437b9-5b1e-4fb0-b254-bd677d02ae84",
+          "persistentUuid": "c40cc4d4-b524-471b-a558-b763e86b5ff0",
           "width": 150,
-          "x": 1216,
-          "y": -704,
+          "x": 866,
+          "y": 349,
           "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "bt04",
+          "persistentUuid": "7b172752-adb4-4212-932d-7285c96f07b3",
+          "width": 150,
+          "x": 460,
+          "y": 523,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "bt05",
+          "persistentUuid": "d1f2075a-065c-4cb4-9462-7b0b92f29126",
+          "width": 150,
+          "x": 663,
+          "y": 523,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "bt06",
+          "persistentUuid": "453d46b4-3785-48bd-bc74-d10a6ff1b0d0",
+          "width": 150,
+          "x": 866,
+          "y": 522,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "bt07",
+          "persistentUuid": "9bb65a1e-6464-49ef-a4c4-d1ece9e6ad68",
+          "width": 150,
+          "x": 381,
+          "y": 615,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "bt08",
+          "persistentUuid": "336c6144-f2a2-4015-9ca7-26965361870b",
+          "width": 150,
+          "x": 587,
+          "y": 614,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "bt09",
+          "persistentUuid": "a7a97c08-797a-4978-8570-c070cd717013",
+          "width": 150,
+          "x": 795,
+          "y": 605,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "bt00",
+          "persistentUuid": "ab8683a8-77b2-40b6-b078-e8e2c7615bd8",
+          "width": 150,
+          "x": 588,
+          "y": 779,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "btfc",
+          "persistentUuid": "fce99d4d-82c4-4fae-b2d7-ed9e4496a520",
+          "width": 80,
+          "x": 869,
+          "y": 160,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 49,
+          "layer": "",
+          "locked": false,
+          "name": "tqteclado",
+          "persistentUuid": "ba66e3f6-911f-4502-898a-bb97bf232e66",
+          "width": 778,
+          "x": 26,
+          "y": 826,
+          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25013,16 +25300,16 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "paineltexto.png",
+                      "image": "teclado.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 970,
-                        "y": 355.546875
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -25323,12 +25610,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "01.png",
+                      "image": "bt01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 160,
+                        "y": 160
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -25362,12 +25649,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "01.png",
+                      "image": "bt02.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 160,
+                        "y": 160
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -25401,7 +25688,163 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "01.png",
+                      "image": "bt03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 160,
+                        "y": 160
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bt04",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bt04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 160,
+                        "y": 160
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bt05",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bt05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 160,
+                        "y": 160
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bt06",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bt06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 160,
+                        "y": 160
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bt07",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bt07.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -25421,6 +25864,230 @@
               ]
             }
           ]
+        },
+        {
+          "name": "bt08",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bt08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bt09",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bt09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "btfc",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "btFechar1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "btFechar2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "btFechar1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bt00",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bt00.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tqteclado",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
         }
       ],
       "events": [
@@ -25472,6 +26139,18 @@
                   },
                   "parameters": [
                     "btFechar",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "btfc",
                     "=",
                     "0"
                   ],
@@ -25616,6 +26295,398 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "TECLADO ANIMA",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "txtA1",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "tecladoGraus",
+                            "S"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "btfc",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "btfc",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "tecladoGraus"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "BOTAO 01",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bt01",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionTeclado::sizeButtons"
+                      },
+                      "parameters": [
+                        "",
+                        "bt01",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bt01",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionTeclado::defautButtons"
+                      },
+                      "parameters": [
+                        "",
+                        "bt01",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "BOTAO 02",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bt02",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionTeclado::sizeButtons"
+                      },
+                      "parameters": [
+                        "",
+                        "bt02",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bt02",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionTeclado::defautButtons"
+                      },
+                      "parameters": [
+                        "",
+                        "bt02",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -25648,6 +26719,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "tecladoGraus"
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -26331,108 +27412,157 @@
   "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
-      "author": "@4ian",
-      "description": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
+      "author": "",
+      "description": "",
       "extensionNamespace": "",
-      "fullName": "Linear Movement",
+      "fullName": "",
       "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJheS1zdGFydC1hcnJvdyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yMywxMkwxOSwxNlYxM0g2LjgzQzYuNDIsMTQuMTcgNS4zMSwxNSA0LDE1QTMsMyAwIDAsMSAxLDEyQTMsMyAwIDAsMSA0LDlDNS4zMSw5IDYuNDIsOS44MyA2LjgzLDExSDE5VjhMMjMsMTJaIiAvPjwvc3ZnPg==",
-      "name": "LinearMovement",
-      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg",
-      "shortDescription": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
-      "version": "0.0.1",
-      "tags": [
-        "line",
-        "movement",
-        "linear"
-      ],
+      "iconUrl": "",
+      "name": "functionTeclado",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "tags": [],
       "dependencies": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
+      "eventsFunctions": [
         {
-          "description": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
-          "fullName": "Linear movement",
-          "name": "LinearMovement",
-          "objectType": "",
-          "eventsFunctions": [
+          "description": "Size button teclado",
+          "fullName": "Change size the Button",
+          "functionType": "Action",
+          "name": "sizeButtons",
+          "private": false,
+          "sentence": "Change size the Button  _PARAM1_",
+          "events": [
             {
-              "description": "",
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "private": false,
-              "sentence": "",
-              "events": [
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
                 {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Object.Behavior::PropertySpeedX()",
-                        "Object.Behavior::PropertySpeedY()",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "btTeclado",
+                    "+",
+                    "5000*TimeDelta()"
                   ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
+                  "subInstructions": []
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "LinearMovement::LinearMovement",
-                  "type": "behavior"
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "btTeclado",
+                    "+",
+                    "5000*TimeDelta()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "btTeclado",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "objectGroups": []
+              "events": []
             }
           ],
-          "propertyDescriptors": [
+          "parameters": [
             {
-              "value": "0",
-              "type": "Number",
-              "label": "Speed on X axis",
-              "description": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "SpeedX"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "Speed on Y axis",
-              "description": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "SpeedY"
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Change size the Button",
+              "longDescription": "",
+              "name": "btTeclado",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
             }
-          ]
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Defaut size button initial",
+          "fullName": "Defaut size button initial",
+          "functionType": "Action",
+          "name": "defautButtons",
+          "private": false,
+          "sentence": "Defaut size button _PARAM1_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "button",
+                    "=",
+                    "150"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "button",
+                    "=",
+                    "150"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "button",
+                    "=",
+                    "48"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Defaut size button initial",
+              "longDescription": "",
+              "name": "button",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
         }
-      ]
+      ],
+      "eventsBasedBehaviors": []
     }
   ],
   "externalLayouts": [],
