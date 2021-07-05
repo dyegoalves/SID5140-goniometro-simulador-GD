@@ -20,7 +20,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\dyego.alves\\Desktop\\app",
+    "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\aa",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -2040,6 +2040,15 @@
         "name": "bt00.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btCE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btCE.png",
+        "smoothed": true,
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -24277,7 +24286,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.7700000000000012
+        "zoomFactor": 0.6900000000000012
       },
       "objectsGroups": [
         {
@@ -25029,6 +25038,70 @@
               "value": 0
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "a1",
+          "persistentUuid": "a22d0994-8d92-44a3-8447-32708feccbb7",
+          "width": 45,
+          "x": 1376,
+          "y": 760,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "layer": "",
+          "locked": false,
+          "name": "txtTestDesk",
+          "persistentUuid": "301c0caa-09ca-4957-8b01-ef8294e1a2b8",
+          "width": 99,
+          "x": 1252,
+          "y": 760,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "a2",
+          "persistentUuid": "30402217-85c7-47fa-9ebf-5d2a3a4973c9",
+          "width": 0,
+          "x": 1378,
+          "y": 836,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "layer": "",
+          "locked": false,
+          "name": "txtTestMobile",
+          "persistentUuid": "04af99c2-4253-4ba2-ad5f-67abfb80d65e",
+          "width": 113,
+          "x": 1257,
+          "y": 840,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -26291,6 +26364,68 @@
               ]
             }
           ]
+        },
+        {
+          "name": "a2",
+          "tags": "",
+          "type": "TextEntryObject::TextEntry",
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "TextEntryVirtualKeyboard",
+              "type": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard"
+            }
+          ]
+        },
+        {
+          "name": "a1",
+          "tags": "",
+          "type": "TextEntryObject::TextEntry",
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "TextEntryVirtualKeyboard",
+              "type": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard"
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txtTestDesk",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "aa",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 74,
+            "g": 74,
+            "r": 74
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txtTestMobile",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "bb",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 74,
+            "g": 74,
+            "r": 74
+          }
         }
       ],
       "events": [
@@ -27656,7 +27791,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "KEYBOARD ANIMATIONS BUTTONS",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31474,6 +31609,316 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtTestDesk",
+                "=",
+                "a1.String()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btConf",
+                "Left",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::openKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::setTypeKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                "\"number\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtTestMobile",
+                "=",
+                "a2.String()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "btConf",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::openKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::setTypeKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                "\"number\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtTestMobile",
+                "=",
+                "a2.String()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txtB1",
+                "Left",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::openKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::setTypeKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                "\"number\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtTestMobile",
+                "=",
+                "a2.String()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PopEndedTouch"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::openKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::setTypeKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                "\"number\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtTestMobile",
+                "=",
+                "a2.String()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::openKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::setTypeKeyboard"
+              },
+              "parameters": [
+                "a2",
+                "TextEntryVirtualKeyboard",
+                "\"number\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtTestMobile",
+                "=",
+                "a2.String()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -31504,12 +31949,572 @@
         {
           "name": "LinearMovement",
           "type": "LinearMovement::LinearMovement"
+        },
+        {
+          "name": "TextEntryVirtualKeyboard",
+          "type": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard"
         }
       ]
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Bouh",
+      "description": "Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used with Text Entry objects.\n\nActions to open and close the keyboard are added. You can then use the Text Entry as usual.\n\nKeyboard can be : text, tel, number (text by default)",
+      "extensionNamespace": "",
+      "fullName": "Mobile virtual keyboard for Text Entry",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "TextEntryVirtualKeyboard",
+      "previewIconUrl": "",
+      "shortDescription": "Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used with Text Entry objects.",
+      "version": "0.0.3b",
+      "tags": [
+        "javascript",
+        "virtual keyboard",
+        "mobile"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used on Text Entry objects.",
+          "fullName": "Mobile virtual keyboard for Text Entry",
+          "name": "TextEntryVirtualKeyboard",
+          "objectType": "TextEntryObject::TextEntry",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "For each object which have this behavior, we create a HTML input with a unique ID. This ID is stored in the object to allow to retrieve the input later.",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nif (typeof document === \"undefined\") {\n    console.error(\"This behavior is only running in a Browser-like environment\");\n    return;\n}\n\n// Select and focus the input associated to the object when opening the keyboard\ngdjs._extensionMobileKeyboard.openKeyboard = function (eventsFunctionContext) {\n    var uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        var textEntry = eventsFunctionContext.getObjects(\"Object\")[0];\n        input.value = textEntry.getString();\n        input.style.setProperty(\"visibility\", \"visible\");\n        input.focus();\n        //input.style.setProperty(\"visibility\", \"hidden\");\n    }\n}\n\n// Blur the input associated to an ID\ngdjs._extensionMobileKeyboard.closeKeyboardById = function (uniqueID) {\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        input.blur();\n    }\n}\n\n// Blur the input associated to an object\ngdjs._extensionMobileKeyboard.closeKeyboard = function (eventsFunctionContext) {\n    var uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\n    var input = document.getElementById(uniqueID);\n    if (input && input.focus) {\n        var textEntry = eventsFunctionContext.getObjects(\"Object\")[0];\n        textEntry.setString(input.value);\n        input.blur();\n        input.style.setProperty(\"visibility\", \"hidden\");\n    }\n}\n\n//Change type of input\ngdjs._extensionMobileKeyboard.setTypeKeyboard = function (eventsFunctionContext) {\n    var uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        input.type = object.getBehavior(\"TextEntryVirtualKeyboard\")._behaviorData[\"typeInput\"];\n    }\n}\n\n// Return the id of the current behavior object\ngdjs._extensionMobileKeyboard.getUniqueIdInObject = function (eventsFunctionContext) {\n    var behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");\n    return eventsFunctionContext.getObjects(\"Object\")[0]._mobileKeyboardExtensionInput._uniqueId;\n}\n\n// Save an ID inside the object\nvar setUniqueIdInObject = function (id) {\n    var behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");\n    eventsFunctionContext.getObjects(\"Object\")[0]._mobileKeyboardExtensionInput = { \"_uniqueId\": id };\n}\n\n// Create an input for the current object\nconst input = document.createElement(\"input\");\n\nvar object = eventsFunctionContext.getObjects(\"Object\")[0];\n\nif (object.getBehavior(\"TextEntryVirtualKeyboard\")._behaviorData[\"typeInput\"] == \"tel\") {\n    input.type = \"tel\";\n} else if (object.getBehavior(\"TextEntryVirtualKeyboard\")._behaviorData[\"typeInput\"] == \"number\") {\n    input.type = \"number\";\n    //use min, inputmode,pattern because iOS don't understand just number so we recreate the layout of inputs\n    //https://twitter.com/swyx/status/1208765643320778752\n    input.min = \"0\";\n    input.inputmode = \"numeric\";\n    input.pattern = \"[0-9]*\";\n} else if (object.getBehavior(\"TextEntryVirtualKeyboard\")._behaviorData[\"typeInput\"] == \"email\") {\n    input.type = \"email\";\n} else {\n    input.type = \"text\";\n}\n\ninput.setAttribute(\"spellcheck\", \"false\"); // Disable spell checking (blue line on mobile under words)\ninput.style = \"background-color: transparent;border: 0px;outline: transparent;color: #0000;visibility: visible;\";\n\n// Create an identifier that is unique\nvar uniqueId = \"GDevelop_Mobile_Keyboard_Input\" + Date.now() + '-' + Math.floor(Math.random() * 100000);\ninput.id = uniqueId; // Apply it to the input\nsetUniqueIdInObject(uniqueId); // Apply it to the object\n\ndocument.body.appendChild(input); // Add input to the document HTML\n\n// Handle key presses on the input\ninput.addEventListener(\"keyup\", function (event) {\n\n    input.focus();\n    var textEntry = eventsFunctionContext.getObjects(\"Object\")[0];\n\n    // Force selection to be at the end (to mimic Text Entry)\n    var length_string = input.value.length;\n\n    if (input.type != \"email\" && input.type != \"number\") {\n        input.setSelectionRange(length_string, length_string);\n    }\n\n\n    //if the input is \"tel\" we can write with number and sign +-# ...\n    if (input.type == \"tel\" || input.type == \"number\") {\n        if (event.key !== \"Unidentified\") {//Can be \"Unidentified\" if we use sign on tel keyboard\n            const isNumber = !isNaN(Number(event.key));\n            if (isNumber) {\n                input.value += event.key;\n            }\n        }\n    }\n\n\n\n    // Support for removing the last character\n    if (event.keyCode == 8 || event.keyCode == 46) { // 8=Backspace, 46=Del\n        input.value = textEntry.getString().slice(0, -1);\n    }\n\n    //If not for delete last character we refresh the value\n    if (event.keyCode != 8 && event.keyCode != 46 ) { // 8=Backspace, 46=Del\n        textEntry.setString(input.value);//Edit textEntry _str value\n    }\n\n    if (event.keyCode === 13) { // 13=Enter key \n        //Send id to function for close keyboard\n        if (gdjs._extensionMobileKeyboard.closeKeyboard != undefined) {\n            gdjs._extensionMobileKeyboard.closeKeyboardById(uniqueId);\n        }\n    }\n}, { passive: false });\n",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Open mobile keyboard",
+              "fullName": "Open mobile keyboard",
+              "functionType": "Action",
+              "name": "openKeyboard",
+              "private": false,
+              "sentence": "Open mobile keyboard, and save input in _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nif (gdjs._extensionMobileKeyboard.openKeyboard) { \n    gdjs._extensionMobileKeyboard.openKeyboard(eventsFunctionContext);\n}",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Close mobile keyboard",
+              "fullName": "Close mobile keyboard",
+              "functionType": "Action",
+              "name": "closeKeyboard",
+              "private": false,
+              "sentence": "Close mobile keyboard for _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\r\n\r\nif (gdjs._extensionMobileKeyboard.closeKeyboard) { \r\n    gdjs._extensionMobileKeyboard.closeKeyboard(eventsFunctionContext);\r\n}",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onOwnerRemovedFromScene",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "When we delete the object with this behavior, we delete the HTML input linked to it",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nvar uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\nvar element = document.getElementById(uniqueID);\nif (element) {\n    element.parentNode.removeChild(element);\n}",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change type of keyboard for given behavior. The value can be : text, tel, number (text by default)",
+              "fullName": "Set type of keyboard",
+              "functionType": "Action",
+              "name": "setTypeKeyboard",
+              "private": false,
+              "sentence": "Change type of behavior: _PARAM1_ to _PARAM2_ for object _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"text\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"email\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"tel\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"number\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::SetPropertytypeInput"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "GetArgumentAsString(\"Type\")"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::JsCode",
+                          "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nif (gdjs._extensionMobileKeyboard.setTypeKeyboard) { \n    gdjs._extensionMobileKeyboard.setTypeKeyboard(eventsFunctionContext);\n}",
+                          "parameterObjects": "",
+                          "useStrict": true,
+                          "eventsSheetExpanded": false
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"text\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"email\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"tel\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "\"number\"",
+                                "=",
+                                "GetArgumentAsString(\"Type\")"
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard::SetPropertytypeInput"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "\"text\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "The value can be : text, tel, number, email (text by default)",
+                  "longDescription": "",
+                  "name": "Type",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "text",
+              "type": "String",
+              "label": "The value can be : text, tel, number (text by default)",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "typeInput"
+            }
+          ]
+        }
+      ]
+    },
     {
       "author": "",
       "description": "",
