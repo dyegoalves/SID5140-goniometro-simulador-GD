@@ -1,0 +1,324 @@
+{
+  "author": "Dyego Alves",
+  "description": "",
+  "extensionNamespace": "",
+  "fullName": "Size text, after default ",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXRleHQtcmVjb2duaXRpb24iIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiA0QzIgMi45IDIuOSAyIDQgMkg4VjRINFY4SDJWNE0yMiAyMEMyMiAyMS4xMSAyMS4xMSAyMiAyMCAyMkgxNlYyMEgyMFYxNkgyMlYyME00IDIyQzIuOSAyMiAyIDIxLjExIDIgMjBWMTZINFYyMEg4VjIySDRNMjAgMkMyMS4xMSAyIDIyIDIuOSAyMiA0VjhIMjBWNEgxNlYySDIwTTkgN1Y5SDExVjE3SDEzVjlIMTVWN0g5WiIgLz48L3N2Zz4=",
+  "name": "functionText",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/text-recognition.svg",
+  "shortDescription": "",
+  "version": "0.1.0",
+  "tags": [],
+  "dependencies": [
+    {
+      "exportName": "my-dependency",
+      "name": "New Dependency",
+      "type": "npm",
+      "version": "1.0.0"
+    }
+  ],
+  "eventsFunctions": [
+    {
+      "description": "Collor text correct ",
+      "fullName": "Collor text correct ",
+      "functionType": "Action",
+      "name": "colorTextCorrect",
+      "private": false,
+      "sentence": "Collor text correct   _PARAM1_,_PARAM2_,_PARAM3_,_PARAM4_,_PARAM5_ ",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Respostas",
+                "+"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Respostas",
+                "\"126;211;33\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Respostas",
+                "=",
+                "\"A Resposta está correta\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtA1",
+                "\"74;74;74\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtB1",
+                "\"74;74;74\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtA1vl",
+                "\"126;211;33\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtB1vl",
+                "\"126;211;33\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Respostas",
+          "longDescription": "",
+          "name": "Respostas",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtA1",
+          "longDescription": "",
+          "name": "txtA1",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtB1",
+          "longDescription": "",
+          "name": "txtB1",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtA1vl",
+          "longDescription": "",
+          "name": "txtA1vl",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtB1vl",
+          "longDescription": "",
+          "name": "txtB1vl",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Collor text Incorrect",
+      "fullName": "Collor text Incorrect",
+      "functionType": "Action",
+      "name": "colorTextIncorrect",
+      "private": false,
+      "sentence": "Collor text Incorrect   _PARAM1_,_PARAM2_,_PARAM3_,_PARAM4_,_PARAM5_ ",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Respostas",
+                "+"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Respostas",
+                "\"230;11;11\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Respostas",
+                "=",
+                "\"Resposta incorreta!\nA correta seria A¹= 64º e B¹= 30'\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtA1",
+                "\"74;74;74\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtB1",
+                "\"74;74;74\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtB1vl",
+                "\"230;11;11\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txtA1vl",
+                "\"230;11;11\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Respostas",
+          "longDescription": "",
+          "name": "Respostas",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtA1",
+          "longDescription": "",
+          "name": "txtA1",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtB1",
+          "longDescription": "",
+          "name": "txtB1",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtA1vl",
+          "longDescription": "",
+          "name": "txtA1vl",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "txtB1vl",
+          "longDescription": "",
+          "name": "txtB1vl",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": []
+}

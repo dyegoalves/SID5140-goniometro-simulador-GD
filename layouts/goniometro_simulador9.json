@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.25000000000000083
+    "zoomFactor": 0.5500000000000012
   },
   "objectsGroups": [
     {
@@ -301,8 +301,8 @@
       "name": "tt",
       "persistentUuid": "41e2b4ff-3a94-4702-bb5a-a8affdf5e644",
       "width": 0,
-      "x": 1458,
-      "y": 718,
+      "x": 1490,
+      "y": 752,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -317,8 +317,8 @@
       "name": "tt",
       "persistentUuid": "02b01d68-35e8-4381-9460-321bfade5667",
       "width": 0,
-      "x": 1064,
-      "y": 467,
+      "x": 1053,
+      "y": 468,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -334,7 +334,7 @@
       "persistentUuid": "82555b50-9ed3-4486-8002-87f990b30e6c",
       "width": 1608,
       "x": 174,
-      "y": 255,
+      "y": 244,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -366,7 +366,7 @@
       "persistentUuid": "5f9e68e1-e525-49cf-b636-9f4d33e54c02",
       "width": 326,
       "x": 1176,
-      "y": 492,
+      "y": 486,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -388,7 +388,7 @@
       "persistentUuid": "4cff66fd-65a3-41de-8eff-9e16fb9d2592",
       "width": 336,
       "x": 1538,
-      "y": 492,
+      "y": 486,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -409,9 +409,9 @@
       "name": "txtLeituraCompleta",
       "persistentUuid": "464b554d-654a-4f43-b525-31e3c0baceb1",
       "width": 694,
-      "x": 1167,
-      "y": 581,
-      "zOrder": 42,
+      "x": 1170,
+      "y": 557,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -425,8 +425,8 @@
       "name": "txtA1vl",
       "persistentUuid": "ae7dd016-3f7c-425b-ade6-2465bc54dc9a",
       "width": 91,
-      "x": 1504,
-      "y": 575,
+      "x": 1507,
+      "y": 554,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -439,7 +439,7 @@
         {
           "name": "poyd",
           "type": "number",
-          "value": 580
+          "value": 555
         }
       ]
     },
@@ -453,7 +453,7 @@
       "persistentUuid": "41c61d20-afe4-4c09-9beb-9ae09bd0f400",
       "width": 80,
       "x": 1341,
-      "y": 495,
+      "y": 489,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -466,7 +466,7 @@
         {
           "name": "poyd",
           "type": "number",
-          "value": 500
+          "value": 495
         }
       ]
     },
@@ -770,7 +770,7 @@
       "persistentUuid": "3c7581d3-ec8d-4e06-95e1-80b505982f43",
       "width": 100,
       "x": 1717,
-      "y": 495,
+      "y": 489,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -783,7 +783,7 @@
         {
           "name": "poyd",
           "type": "number",
-          "value": 500
+          "value": 495
         }
       ]
     },
@@ -796,8 +796,8 @@
       "name": "txtB1vl",
       "persistentUuid": "35f3b935-27a3-4c7d-a90e-3cf24430eef6",
       "width": 100,
-      "x": 1725,
-      "y": 572,
+      "x": 1728,
+      "y": 553,
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
@@ -810,7 +810,7 @@
         {
           "name": "poyd",
           "type": "number",
-          "value": 580
+          "value": 555
         }
       ]
     },
@@ -823,8 +823,8 @@
       "name": "btConf",
       "persistentUuid": "9d5e7786-f22f-4858-a76d-ba96a60f80ea",
       "width": 140,
-      "x": 1501,
-      "y": 678,
+      "x": 1497,
+      "y": 641,
       "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
@@ -833,6 +833,16 @@
           "name": "cbtconf",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "respA1",
+          "type": "string",
+          "value": "64"
+        },
+        {
+          "name": "respB1",
+          "type": "string",
+          "value": "30"
         }
       ]
     },
@@ -880,6 +890,38 @@
       "x": 1740,
       "y": 140,
       "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Respostas",
+      "persistentUuid": "9a3c82cc-d327-477c-a8d6-8b6f7dfbf075",
+      "width": 0,
+      "x": 1205,
+      "y": 684,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "txtTituloPainelLeitura",
+      "persistentUuid": "c7eb5a00-9919-4e0e-b526-b93427982059",
+      "width": 0,
+      "x": 1311,
+      "y": 396,
+      "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1472,6 +1514,25 @@
       "string": "A¹= ______º",
       "font": "Verdana.ttf",
       "characterSize": 40,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "txtTituloPainelLeitura",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Painel de leitura prática.",
+      "font": "Verdana.ttf",
+      "characterSize": 30,
       "color": {
         "b": 74,
         "g": 74,
@@ -2169,6 +2230,25 @@
           "type": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard"
         }
       ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Respostas",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "A resposta está correta!!",
+      "font": "Verdana.ttf",
+      "characterSize": 25,
+      "color": {
+        "b": 33,
+        "g": 211,
+        "r": 126
+      }
     }
   ],
   "events": [
@@ -2333,6 +2413,28 @@
               },
               "parameters": [
                 "a1b1txt",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Respostas"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "txtTituloPainelLeitura",
                 "=",
                 "0"
               ],
@@ -2578,6 +2680,52 @@
             {
               "type": {
                 "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "txtTituloPainelLeitura",
+                "+",
+                "150*TimeDelta()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtA1vl",
+                "!=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtB1vl",
+                "!=",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "Opacity"
               },
               "parameters": [
@@ -2638,69 +2786,6 @@
                 "txtTituloGONIOMETRO",
                 "\"timer\"",
                 "4"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "5"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "6"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "7"
               ],
               "subInstructions": []
             }
@@ -3558,6 +3643,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Size"
+              },
+              "parameters": [
+                "Respostas",
+                "=",
+                "25"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -3605,7 +3702,312 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtA1vl",
+                        "=",
+                        "btConf.VariableString(respA1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtB1vl",
+                        "=",
+                        "btConf.VariableString(respB1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "btConf",
+                        ">=",
+                        "150"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionText::colorTextCorrect"
+                      },
+                      "parameters": [
+                        "",
+                        "Respostas",
+                        "txtA1",
+                        "txtB1",
+                        "txtA1vl",
+                        "txtB1vl",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::Size"
+                      },
+                      "parameters": [
+                        "Respostas",
+                        "=",
+                        "26"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtA1vl",
+                        "=",
+                        "btConf.VariableString(respA1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtB1vl",
+                        "=",
+                        "btConf.VariableString(respB1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "btConf",
+                        ">=",
+                        "150"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionText::colorTextIncorrect"
+                      },
+                      "parameters": [
+                        "",
+                        "Respostas",
+                        "txtA1",
+                        "txtB1",
+                        "txtA1vl",
+                        "txtB1vl",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::Size"
+                      },
+                      "parameters": [
+                        "Respostas",
+                        "=",
+                        "26"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtA1vl",
+                        "=",
+                        "btConf.VariableString(respA1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtB1vl",
+                        "=",
+                        "btConf.VariableString(respB1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "btConf",
+                        ">=",
+                        "150"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionText::colorTextIncorrect"
+                      },
+                      "parameters": [
+                        "",
+                        "Respostas",
+                        "txtA1",
+                        "txtB1",
+                        "txtA1vl",
+                        "txtB1vl",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::Size"
+                      },
+                      "parameters": [
+                        "Respostas",
+                        "=",
+                        "26"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtA1vl",
+                        "=",
+                        "btConf.VariableString(respA1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "txtB1vl",
+                        "=",
+                        "btConf.VariableString(respB1)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "btConf",
+                        ">=",
+                        "150"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "functionText::colorTextIncorrect"
+                      },
+                      "parameters": [
+                        "",
+                        "Respostas",
+                        "txtA1",
+                        "txtB1",
+                        "txtA1vl",
+                        "txtB1vl",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::Size"
+                      },
+                      "parameters": [
+                        "Respostas",
+                        "=",
+                        "26"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
             }
           ]
         },
