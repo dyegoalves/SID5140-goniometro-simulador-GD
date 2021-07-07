@@ -2258,7 +2258,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ANIMATIONS TEXTO SHOW / HIDEN",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2959,7 +2959,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ANIMATIONS SCREEN BUTTONS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3167,7 +3167,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "KEYBOARD ANIMATIONS BUTTONS INPUTS  E BUTTONS A1 E B1",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4023,7 +4023,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "ANIMA TECLADO INPUT",
+          "comment": "ANIMATION TECLADO INPUT MOBILE E DESKTOP",
           "comment2": ""
         },
         {
@@ -4188,6 +4188,14 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4350,6 +4358,14 @@
                 "=",
                 "0"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -4856,6 +4872,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -5238,6 +5262,14 @@
                 "=",
                 "0"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -5622,6 +5654,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -6004,6 +6044,14 @@
                 "=",
                 "0"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -6388,6 +6436,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -6770,6 +6826,14 @@
                 "=",
                 "0"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -7154,6 +7218,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -7536,6 +7608,14 @@
                 "=",
                 "0"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -7920,6 +8000,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -8303,6 +8391,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -8643,6 +8739,14 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     },
     {
       "disabled": false,
