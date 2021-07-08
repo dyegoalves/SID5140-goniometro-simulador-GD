@@ -2076,6 +2076,24 @@
         "name": "peca01zoom2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Peca022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peca022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "peca02Zoom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "peca02Zoom.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2119,6 +2137,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/goniometro_simulador9"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/goniometro_simulador10"
     }
   ],
   "externalEvents": [],

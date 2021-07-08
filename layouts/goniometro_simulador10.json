@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "goniometro_95simulador9",
-  "name": "goniometro_simulador9",
+  "mangledName": "goniometro_95simulador10",
+  "name": "goniometro_simulador10",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.49000000000000105
+    "zoomFactor": 0.45000000000000107
   },
   "objectsGroups": [
     {
@@ -279,14 +279,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 461,
+      "height": 561,
       "layer": "",
       "locked": false,
       "name": "peca01",
       "persistentUuid": "9ede5010-e49c-45d1-b933-9d49f6f2a3a6",
       "width": 1200,
       "x": 30,
-      "y": 520,
+      "y": 419,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -336,22 +336,6 @@
       "x": 174,
       "y": 244,
       "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 395,
-      "layer": "",
-      "locked": false,
-      "name": "a1b1",
-      "persistentUuid": "8996c2e1-8757-433c-8563-a2e016b25a71",
-      "width": 391,
-      "x": 562,
-      "y": 456,
-      "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -837,12 +821,12 @@
         {
           "name": "respA1",
           "type": "string",
-          "value": "64"
+          "value": "41"
         },
         {
           "name": "respB1",
           "type": "string",
-          "value": "30"
+          "value": "50"
         }
       ]
     },
@@ -935,8 +919,8 @@
       "name": "lupazoom",
       "persistentUuid": "b523ef20-ea57-425b-ad45-88aa51f6e06c",
       "width": 100,
-      "x": 165,
-      "y": 701,
+      "x": 192,
+      "y": 681,
       "zOrder": 69,
       "numberProperties": [],
       "stringProperties": [],
@@ -950,15 +934,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 1096,
       "layer": "zoom",
       "locked": false,
       "name": "peca01zoom",
       "persistentUuid": "c472893d-ff42-42e2-9d1f-e441fa67eb75",
-      "width": 0,
-      "x": 112,
-      "y": -2,
+      "width": 1096,
+      "x": 116,
+      "y": -22,
       "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
@@ -973,8 +957,8 @@
       "name": "btfczoom",
       "persistentUuid": "c48415e1-0de1-43ef-8a16-7a76b4dbe651",
       "width": 80,
-      "x": 1032,
-      "y": 154,
+      "x": 1055,
+      "y": 151,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -1008,11 +992,11 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "TELACURRENT09",
-      "persistentUuid": "e26fc6b9-412f-479d-b2b0-c302504a87d0",
+      "name": "TELACURRENT",
+      "persistentUuid": "59d7cb28-abb6-4c8a-9e45-7f9a331cf540",
       "width": 0,
-      "x": 157,
-      "y": -82,
+      "x": 335,
+      "y": -75,
       "zOrder": 82,
       "numberProperties": [],
       "stringProperties": [],
@@ -1407,7 +1391,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "TELA 09",
+      "string": "TELA 10",
       "font": "Verdana.ttf",
       "characterSize": 35,
       "color": {
@@ -1492,7 +1476,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "peca012.png",
+                  "image": "Peca022.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1603,7 +1587,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "A¹= ______º",
+      "string": "A²= ______º",
       "font": "Verdana.ttf",
       "characterSize": 40,
       "color": {
@@ -1660,7 +1644,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "B¹= ______´",
+      "string": "B²= ______´",
       "font": "Verdana.ttf",
       "characterSize": 40,
       "color": {
@@ -2484,7 +2468,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "peca01zoom2.png",
+                  "image": "peca02Zoom.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2523,7 +2507,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ind01.png",
+                  "image": "bt02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2547,14 +2531,14 @@
     {
       "bold": false,
       "italic": false,
-      "name": "TELACURRENT09",
+      "name": "TELACURRENT",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "09",
+      "string": "10",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -2571,7 +2555,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ANIMATIONS TEXTO SHOW / HIDEN",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3258,7 +3242,7 @@
               },
               "parameters": [
                 "",
-                "\"goniometro_simulador10\"",
+                "\"goniometro_simulador11\"",
                 ""
               ],
               "subInstructions": []
@@ -3315,7 +3299,7 @@
               },
               "parameters": [
                 "",
-                "\"goniometro_simulador8\"",
+                "\"goniometro_simulador9\"",
                 ""
               ],
               "subInstructions": []
@@ -3340,7 +3324,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ANIMATIONS SCREEN BUTTONS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4477,7 +4461,7 @@
                         "txtB1",
                         "txtA1vl",
                         "txtB1vl",
-                        "TELACURRENT09"
+                        "TELACURRENT"
                       ],
                       "subInstructions": []
                     },
@@ -4551,7 +4535,7 @@
                         "txtB1",
                         "txtA1vl",
                         "txtB1vl",
-                        "TELACURRENT09"
+                        "TELACURRENT"
                       ],
                       "subInstructions": []
                     },
@@ -4625,7 +4609,7 @@
                         "txtB1",
                         "txtA1vl",
                         "txtB1vl",
-                        "TELACURRENT09"
+                        "TELACURRENT"
                       ],
                       "subInstructions": []
                     },
