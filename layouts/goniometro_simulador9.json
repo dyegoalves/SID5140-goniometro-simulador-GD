@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.5500000000000012
+    "zoomFactor": 0.250000000000001
   },
   "objectsGroups": [
     {
@@ -474,7 +474,7 @@
       "angle": 0,
       "customSize": true,
       "height": 895,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "teclado",
       "persistentUuid": "15f94f97-9d07-4eda-b747-b40c8139602b",
@@ -501,7 +501,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt01",
       "persistentUuid": "72c72ecc-5096-464d-8d73-d375d3a7722a",
@@ -528,7 +528,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt02",
       "persistentUuid": "41a342a5-03e4-43cc-9449-070d54a38244",
@@ -550,7 +550,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt03",
       "persistentUuid": "c40cc4d4-b524-471b-a558-b763e86b5ff0",
@@ -572,7 +572,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt04",
       "persistentUuid": "7b172752-adb4-4212-932d-7285c96f07b3",
@@ -594,7 +594,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt05",
       "persistentUuid": "d1f2075a-065c-4cb4-9462-7b0b92f29126",
@@ -616,7 +616,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt06",
       "persistentUuid": "453d46b4-3785-48bd-bc74-d10a6ff1b0d0",
@@ -638,7 +638,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt07",
       "persistentUuid": "9bb65a1e-6464-49ef-a4c4-d1ece9e6ad68",
@@ -660,7 +660,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt08",
       "persistentUuid": "336c6144-f2a2-4015-9ca7-26965361870b",
@@ -682,7 +682,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt09",
       "persistentUuid": "a7a97c08-797a-4978-8570-c070cd717013",
@@ -704,7 +704,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "bt00",
       "persistentUuid": "ab8683a8-77b2-40b6-b078-e8e2c7615bd8",
@@ -726,7 +726,7 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "btfc",
       "persistentUuid": "fce99d4d-82c4-4fae-b2d7-ed9e4496a520",
@@ -742,7 +742,7 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "",
+      "layer": "teclado",
       "locked": false,
       "name": "btCE",
       "persistentUuid": "73621512-2edd-4534-8161-7bd6f17ca72e",
@@ -925,6 +925,66 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 116,
+      "layer": "",
+      "locked": false,
+      "name": "lupazoom",
+      "persistentUuid": "b523ef20-ea57-425b-ad45-88aa51f6e06c",
+      "width": 100,
+      "x": 165,
+      "y": 701,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "clupa",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "zoom",
+      "locked": false,
+      "name": "peca01zoom",
+      "persistentUuid": "c472893d-ff42-42e2-9d1f-e441fa67eb75",
+      "width": 0,
+      "x": 112,
+      "y": -2,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "zoom",
+      "locked": false,
+      "name": "btfczoom",
+      "persistentUuid": "c48415e1-0de1-43ef-8a16-7a76b4dbe651",
+      "width": 80,
+      "x": 1032,
+      "y": 154,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "cbtfczoom",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "objects": [
@@ -2084,6 +2144,91 @@
       ]
     },
     {
+      "name": "btfczoom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btFechar1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btFechar2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btFechar1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "btfc",
       "tags": "",
       "type": "Sprite",
@@ -2249,6 +2394,84 @@
         "g": 211,
         "r": 126
       }
+    },
+    {
+      "name": "lupazoom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "lupa.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 617.5,
+                    "y": 713.28125
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "peca01zoom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "peca01zoom2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2258,7 +2481,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "ANIMATIONS TEXTO SHOW / HIDEN",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2329,6 +2552,18 @@
               },
               "parameters": [
                 "peca01",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "lupazoom",
                 "=",
                 "0"
               ],
@@ -2437,6 +2672,26 @@
                 "txtTituloPainelLeitura",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "peca01zoom"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "btfczoom"
               ],
               "subInstructions": []
             }
@@ -2552,6 +2807,18 @@
               },
               "parameters": [
                 "peca01",
+                "+",
+                "150*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "lupazoom",
                 "+",
                 "150*TimeDelta()"
               ],
@@ -2959,7 +3226,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "ANIMATIONS SCREEN BUTTONS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3013,6 +3280,18 @@
               },
               "parameters": [
                 "btfc",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btfczoom",
                 "=",
                 "0"
               ],
@@ -3157,6 +3436,258 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "lupazoom",
+                "",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "lupazoom",
+                "clupa",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "functionTeclado::defautButtonsLupa"
+              },
+              "parameters": [
+                "",
+                "lupazoom",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "functionTeclado::sizeButtonsLupa"
+                  },
+                  "parameters": [
+                    "",
+                    "lupazoom",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "lupazoom",
+                    "clupa",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "peca01zoom",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "btfczoom",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btfczoom",
+                "",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "btfczoom",
+                "cbtfczoom",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "functionTeclado::defautButtonsBtClosedZoom"
+              },
+              "parameters": [
+                "",
+                "btfczoom",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btfczoom",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "functionTeclado::sizeButtonsBtClosedZoom"
+                  },
+                  "parameters": [
+                    "",
+                    "btfczoom",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "btfczoom",
+                    "cbtfczoom",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "peca01zoom"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "btfczoom"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "parameters": []
@@ -3167,7 +3698,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "KEYBOARD ANIMATIONS BUTTONS INPUTS  E BUTTONS A1 E B1",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8786,6 +9317,28 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": 167800175,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "zoom",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": 67108864,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "teclado",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],

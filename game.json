@@ -20,7 +20,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\app",
+    "latestCompilationDirectory": "C:\\Users\\dyego.alves\\Desktop\\app",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -2058,6 +2058,24 @@
         "name": "btConf.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lupa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lupa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "peca01zoom2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "peca01zoom2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

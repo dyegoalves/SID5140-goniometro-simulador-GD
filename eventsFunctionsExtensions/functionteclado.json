@@ -13,74 +13,6 @@
   "dependencies": [],
   "eventsFunctions": [
     {
-      "description": "Change size the Button Conf",
-      "fullName": "Change size the Button Conf",
-      "functionType": "Action",
-      "name": "sizeButtonsConf",
-      "private": false,
-      "sentence": "Change size the Button Conf  _PARAM1_",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "btTeclado",
-                "=",
-                "280"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeHeight"
-              },
-              "parameters": [
-                "btTeclado",
-                "=",
-                "100"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "btTeclado",
-                "=",
-                "100"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "parameters": [
-        {
-          "codeOnly": false,
-          "defaultValue": "",
-          "description": "Change size the Button Conf",
-          "longDescription": "",
-          "name": "btTeclado",
-          "optional": false,
-          "supplementaryInformation": "Sprite",
-          "type": "objectList"
-        }
-      ],
-      "objectGroups": []
-    },
-    {
       "description": "Size button teclado",
       "fullName": "Change size the Button",
       "functionType": "Action",
@@ -139,6 +71,142 @@
           "codeOnly": false,
           "defaultValue": "",
           "description": "Change size the Button",
+          "longDescription": "",
+          "name": "btTeclado",
+          "optional": false,
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Defaut size button initial",
+      "fullName": "Defaut size button initial",
+      "functionType": "Action",
+      "name": "defautButtons",
+      "private": false,
+      "sentence": "Defaut size button _PARAM1_",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "button",
+                "=",
+                "150"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "button",
+                "=",
+                "150"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "button",
+                "=",
+                "48"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Defaut size button initial",
+          "longDescription": "",
+          "name": "button",
+          "optional": false,
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change size the Button Conf",
+      "fullName": "Change size the Button Conf",
+      "functionType": "Action",
+      "name": "sizeButtonsConf",
+      "private": false,
+      "sentence": "Change size the Button Conf  _PARAM1_",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "280"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Change size the Button Conf",
           "longDescription": "",
           "name": "btTeclado",
           "optional": false,
@@ -217,12 +285,12 @@
       "objectGroups": []
     },
     {
-      "description": "Defaut size button initial",
-      "fullName": "Defaut size button initial",
+      "description": "Change size the Button LUPA",
+      "fullName": "Change size the Button LUPA",
       "functionType": "Action",
-      "name": "defautButtons",
+      "name": "sizeButtonsLupa",
       "private": false,
-      "sentence": "Defaut size button _PARAM1_",
+      "sentence": "Change size the Button LUPA  _PARAM1_",
       "events": [
         {
           "disabled": false,
@@ -233,15 +301,71 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeHeight"
+                "value": "ChangeWidth"
               },
               "parameters": [
-                "button",
+                "btTeclado",
                 "=",
-                "150"
+                "120"
               ],
               "subInstructions": []
             },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "140"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Change size the Button Conf",
+          "longDescription": "",
+          "name": "btTeclado",
+          "optional": false,
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Defaut size button initial LUPA",
+      "fullName": "Defaut size button initial LUPA",
+      "functionType": "Action",
+      "name": "defautButtonsLupa",
+      "private": false,
+      "sentence": "Defaut size button initial LUPA _PARAM1_",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "inverted": false,
@@ -250,7 +374,19 @@
               "parameters": [
                 "button",
                 "=",
-                "150"
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "button",
+                "=",
+                "116"
               ],
               "subInstructions": []
             },
@@ -274,7 +410,7 @@
         {
           "codeOnly": false,
           "defaultValue": "",
-          "description": "Defaut size button initial",
+          "description": "Defaut size button initial LUPA",
           "longDescription": "",
           "name": "button",
           "optional": false,
@@ -285,27 +421,56 @@
       "objectGroups": []
     },
     {
-      "description": "Size value String A1 e B1 ",
-      "fullName": "Size value String A1 e B1 ",
-      "functionType": "Expression",
-      "name": "sizeStringValAumBum",
+      "description": "Change size the Button ClosedZoom",
+      "fullName": "Change size the Button ClosedZoom",
+      "functionType": "Action",
+      "name": "sizeButtonsBtClosedZoom",
       "private": false,
-      "sentence": "Size value String A1 e B1  _PARAM1_ , _PARAM2_  ",
+      "sentence": "Change size the Button ClosedZoom  _PARAM1_",
       "events": [
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "btTeclado",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -313,21 +478,79 @@
         {
           "codeOnly": false,
           "defaultValue": "",
-          "description": "Size value A1 ",
+          "description": "Change size the Button ClosedZoom",
           "longDescription": "",
-          "name": "valueA1",
+          "name": "btTeclado",
           "optional": false,
-          "supplementaryInformation": "TextObject::Text",
+          "supplementaryInformation": "Sprite",
           "type": "objectList"
-        },
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Defaut size Button ClosedZoom",
+      "fullName": "Defaut size Button ClosedZoom",
+      "functionType": "Action",
+      "name": "defautButtonsBtClosedZoom",
+      "private": false,
+      "sentence": "Defaut size Button ClosedZoom _PARAM1_",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "button",
+                "=",
+                "80"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "button",
+                "=",
+                "80"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "button",
+                "=",
+                "80"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
         {
           "codeOnly": false,
           "defaultValue": "",
-          "description": "Size value B1",
+          "description": "Defaut size button initial LUPA",
           "longDescription": "",
-          "name": "valueB1",
+          "name": "button",
           "optional": false,
-          "supplementaryInformation": "TextObject::Text",
+          "supplementaryInformation": "Sprite",
           "type": "objectList"
         }
       ],
