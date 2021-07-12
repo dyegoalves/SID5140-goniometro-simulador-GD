@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5399999999999998
+    "zoomFactor": 0.3999999999999997
   },
   "objectsGroups": [
     {
@@ -228,7 +228,7 @@
       "persistentUuid": "82e621a6-b01c-4509-b405-5237a4fa946c",
       "width": 607,
       "x": 62,
-      "y": 605,
+      "y": 618,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -242,9 +242,9 @@
       "locked": false,
       "name": "txtPainel",
       "persistentUuid": "75e255cb-dc98-4aa9-8e39-f57d46ed6ddc",
-      "width": 553,
+      "width": 523,
       "x": 94,
-      "y": 655,
+      "y": 663,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -339,10 +339,31 @@
       "name": "txt02",
       "persistentUuid": "5a87b6f1-09cf-4dfe-8735-49869a96b66b",
       "width": 0,
-      "x": 1740,
-      "y": 140,
+      "x": 1700,
+      "y": 150,
       "zOrder": 23,
       "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "locked": false,
+      "name": "H01P",
+      "persistentUuid": "12ff3872-e695-42b9-9be9-ab76602fb9fe",
+      "width": 50,
+      "x": 1690,
+      "y": 30,
+      "zOrder": 24,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     }
@@ -3935,6 +3956,122 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
+      "name": "HISTORIC PAGE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H01P",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H01P",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H01P",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"menu_consulta\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "telacurrent",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
       "name": "ANIMACAO TEXTO SHOW/HIDEN",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4348,7 +4485,7 @@
               "parameters": [
                 "goniometroP",
                 "=",
-                "70"
+                "50"
               ],
               "subInstructions": []
             }

@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "goniometro_95simulador6",
-  "name": "goniometro_simulador6",
+  "mangledName": "menu_95consulta",
+  "name": "menu_consulta",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,62 +23,29 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.2299999999999997
+    "zoomFactor": 0.21999999999999986
   },
   "objectsGroups": [
     {
-      "name": "g01",
+      "name": "painel",
       "objects": [
         {
-          "name": "ind_001"
-        },
-        {
-          "name": "txt_001"
+          "name": "txt01"
         }
       ]
     },
     {
-      "name": "g02",
-      "objects": [
-        {
-          "name": "ind_002"
-        },
-        {
-          "name": "txt_002"
-        }
-      ]
+      "name": "reguas",
+      "objects": []
     },
     {
-      "name": "g03",
-      "objects": [
-        {
-          "name": "ind_003"
-        },
-        {
-          "name": "txt_003"
-        }
-      ]
-    },
-    {
-      "name": "g04",
-      "objects": [
-        {
-          "name": "ind_004"
-        },
-        {
-          "name": "txt_004"
-        }
-      ]
+      "name": "angulos",
+      "objects": []
     }
   ],
   "variables": [
     {
       "name": "liberarAvancar",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "liberarVoltar",
       "type": "boolean",
       "value": false
     }
@@ -93,8 +60,8 @@
       "name": "moldura",
       "persistentUuid": "e897342e-5bad-4b13-866b-a0cc1d682614",
       "width": 1909,
-      "x": 9,
-      "y": 10,
+      "x": 5,
+      "y": 15,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -118,70 +85,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "txtAvancar",
-      "persistentUuid": "3145177c-18f0-4e92-b1cb-41f0854808a2",
-      "width": 0,
-      "x": 1679,
-      "y": 995,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "txtVoltar",
-      "persistentUuid": "1b2775bd-b44b-4af8-9591-76ff932de756",
-      "width": 0,
-      "x": 1275,
-      "y": 995,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 65,
-      "layer": "",
-      "locked": false,
-      "name": "btVoltar",
-      "persistentUuid": "49e7cd8e-c497-448b-a547-d1e8fca8bb98",
-      "width": 65,
-      "x": 1427,
-      "y": 950,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 65,
-      "layer": "",
-      "locked": false,
-      "name": "btAvancar",
-      "persistentUuid": "dc8553d8-6300-4930-bdb5-28e1b47da459",
-      "width": 65,
-      "x": 1576,
-      "y": 950,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 65,
       "layer": "",
@@ -198,16 +101,32 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "aguardeTrocaTxt",
-      "persistentUuid": "adb864a7-0863-44f6-81aa-e70f4da668e1",
-      "width": 0,
-      "x": 150,
-      "y": 995,
-      "zOrder": 14,
+      "name": "H01",
+      "persistentUuid": "18c210c4-3aec-4292-a4e3-508be860cdeb",
+      "width": 150,
+      "x": 300,
+      "y": 250,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "",
+      "locked": false,
+      "name": "H01",
+      "persistentUuid": "c1cfd771-61cd-443a-80af-40e358de0d7f",
+      "width": 150,
+      "x": 300,
+      "y": 750,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -219,42 +138,10 @@
       "layer": "",
       "locked": false,
       "name": "txt01",
-      "persistentUuid": "b4c80157-6191-4a0b-856b-bc02150f98a1",
+      "persistentUuid": "350cee97-f64a-45bf-9e1c-65075220f7a0",
       "width": 0,
-      "x": 74,
-      "y": 169,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 80,
-      "layer": "",
-      "locked": false,
-      "name": "ind_001",
-      "persistentUuid": "be7e4272-cd88-413a-ab3f-e2ff194bed71",
-      "width": 80,
-      "x": 200,
-      "y": 282,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 112,
-      "layer": "",
-      "locked": false,
-      "name": "txt_001",
-      "persistentUuid": "1cce311c-8b57-40bf-90eb-b106ba96121b",
-      "width": 577,
-      "x": 300,
-      "y": 281,
+      "x": 482,
+      "y": 144,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -263,14 +150,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 80,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "ind_002",
-      "persistentUuid": "4da429de-7e0e-42ca-a57a-f2efd742c310",
-      "width": 80,
-      "x": 200,
-      "y": 438,
+      "name": "H02",
+      "persistentUuid": "6df278fd-e734-4cde-a519-93ccf102aee9",
+      "width": 150,
+      "x": 600,
+      "y": 250,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -279,14 +166,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 156,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "txt_002",
-      "persistentUuid": "5fce0a0d-c51c-446d-952c-20d9bebbf3ce",
-      "width": 601,
-      "x": 300,
-      "y": 430,
+      "name": "H03",
+      "persistentUuid": "8fcd6cfb-24d9-41cc-8d5f-be087a5d3375",
+      "width": 150,
+      "x": 900,
+      "y": 250,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,14 +182,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 80,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "ind_003",
-      "persistentUuid": "9514e0fb-7842-4269-af9a-c0ad7e7d081a",
-      "width": 80,
-      "x": 200,
-      "y": 604,
+      "name": "H04",
+      "persistentUuid": "257de10d-087e-45d0-85ea-77d804be3415",
+      "width": 150,
+      "x": 1200,
+      "y": 250,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,14 +198,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 70,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "txt_003",
-      "persistentUuid": "a81cc292-2bad-44f1-a8f0-67a5f2ce32e6",
-      "width": 572,
-      "x": 300,
-      "y": 607,
+      "name": "H05",
+      "persistentUuid": "82831157-5738-4733-961e-f8d8a78a7974",
+      "width": 150,
+      "x": 1500,
+      "y": 250,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -327,30 +214,35 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 36,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "txt_004",
-      "persistentUuid": "ee624a60-389a-4689-ba07-71c115357939",
-      "width": 582,
+      "name": "H06",
+      "persistentUuid": "daab8a80-2404-433d-8caf-8f23dd1956c0",
+      "width": 150,
       "x": 300,
-      "y": 752,
+      "y": 500,
       "zOrder": 22,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": true,
-      "height": 80,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "ind_004",
-      "persistentUuid": "4916929e-564d-4eaa-b0ab-4d1ba81493d6",
-      "width": 80,
-      "x": 200,
-      "y": 749,
+      "name": "H07",
+      "persistentUuid": "3633ecb1-dbbc-4a32-a542-a835f9bb8006",
+      "width": 150,
+      "x": 600,
+      "y": 500,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -359,14 +251,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 135,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "peca01",
-      "persistentUuid": "fcf58605-1422-42a2-a442-16135712e9e5",
-      "width": 300,
-      "x": 1200,
-      "y": 176,
+      "name": "H08",
+      "persistentUuid": "c60f9bd6-328f-469f-9880-f9bdb15f7117",
+      "width": 150,
+      "x": 900,
+      "y": 500,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -375,14 +267,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 232,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "peca02",
-      "persistentUuid": "d56ac314-0ca8-4f8a-a1de-8ee691ef9839",
-      "width": 400,
+      "name": "H09",
+      "persistentUuid": "0fff7c1d-025f-457b-8be4-b67a15e2648c",
+      "width": 150,
       "x": 1200,
-      "y": 378,
+      "y": 500,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -391,14 +283,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 200,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "peca03",
-      "persistentUuid": "0432800d-09ae-487d-8479-131d8dbf8904",
-      "width": 400,
-      "x": 1200,
-      "y": 674,
+      "name": "H10",
+      "persistentUuid": "51638d60-c996-4fc3-a26a-05000ebb9fcf",
+      "width": 150,
+      "x": 1500,
+      "y": 500,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -406,32 +298,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "txt02",
-      "persistentUuid": "edd30228-d0a3-4820-a0cd-6eaa8846fd30",
-      "width": 0,
-      "x": 1700,
-      "y": 150,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
-      "height": 70,
+      "height": 150,
       "layer": "",
       "locked": false,
-      "name": "H01P",
-      "persistentUuid": "ddbd16b0-496c-4989-bcd7-311310a4c93f",
-      "width": 50,
-      "x": 1690,
-      "y": 30,
-      "zOrder": 28,
+      "name": "H11",
+      "persistentUuid": "d0430080-96df-4c4c-b316-1da0325aa75e",
+      "width": 150,
+      "x": 300,
+      "y": 750,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -457,240 +333,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "moldura2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "txtVoltar",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Voltar",
-      "font": "HandelGotDBol.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 86,
-        "g": 74,
-        "r": 52
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "txtAvancar",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Avançar",
-      "font": "HandelGotDBol.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 86,
-        "g": 74,
-        "r": 52
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "txtTituloGONIOMETRO",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "LinearMovement",
-          "type": "LinearMovement::LinearMovement",
-          "SpeedX": 0,
-          "SpeedY": 0
-        }
-      ],
-      "string": "GONIÔMETRO",
-      "font": "HandelGotDBol.ttf",
-      "characterSize": 45,
-      "color": {
-        "b": 86,
-        "g": 74,
-        "r": 52
-      }
-    },
-    {
-      "name": "btVoltar",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btVoltar12.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btVoltar.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btVoltar1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "btAvancar",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btAvancar1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btAvancar.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btAvancar12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -797,41 +439,29 @@
       ]
     },
     {
-      "bold": true,
+      "bold": false,
       "italic": false,
-      "name": "aguardeTrocaTxt",
+      "name": "txtTituloGONIOMETRO",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
-      "behaviors": [],
-      "string": "Aguarde ...",
-      "font": "Verdana.ttf",
-      "characterSize": 25,
+      "behaviors": [
+        {
+          "name": "LinearMovement",
+          "type": "LinearMovement::LinearMovement",
+          "SpeedX": 0,
+          "SpeedY": 0
+        }
+      ],
+      "string": "GONIÔMETRO",
+      "font": "HandelGotDBol.ttf",
+      "characterSize": 45,
       "color": {
-        "b": 74,
+        "b": 86,
         "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "txt02",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "TELA 06",
-      "font": "Verdana.ttf",
-      "characterSize": 35,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
+        "r": 52
       }
     },
     {
@@ -844,9 +474,9 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "• Como posicionar o goniômetro – passo a passo",
+      "string": "Tela de consulta, selecione a tela para consultar",
       "font": "Verdana.ttf",
-      "characterSize": 35,
+      "characterSize": 40,
       "color": {
         "b": 74,
         "g": 74,
@@ -854,7 +484,7 @@
       }
     },
     {
-      "name": "ind_001",
+      "name": "H01",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -871,7 +501,53 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ind01.png",
+                  "image": "01A2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "01A3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "01B2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -893,26 +569,7 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "txt_001",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Apoiar a base do goniômetro sobre a face de onde parte a linha do ângulo a ser medido.",
-      "font": "Verdana.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "name": "ind_002",
+      "name": "H02",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -929,7 +586,53 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ind022.png",
+                  "image": "02a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "02a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "02b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -951,26 +654,7 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "txt_002",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Mover a régua do goniômetro até a linha da face a ser medida, deixando-o apoiado de forma uniforme.",
-      "font": "Verdana.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "name": "ind_003",
+      "name": "H03",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -987,7 +671,53 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ind03.png",
+                  "image": "03a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "03a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "03b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1009,26 +739,7 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "txt_003",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Posicionar a peça e o goniômetro de forma que possa visualizar a leitura.",
-      "font": "Verdana.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "name": "ind_004",
+      "name": "H04",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1045,7 +756,53 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ind04.png",
+                  "image": "04a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "04a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "04b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1067,26 +824,7 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "txt_004",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Verificar a medida no disco, conforme mostra as telas seguintes.",
-      "font": "Verdana.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "name": "peca01",
+      "name": "H05",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1103,7 +841,53 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "p1.png",
+                  "image": "05a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "05a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "05b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1125,7 +909,7 @@
       ]
     },
     {
-      "name": "peca02",
+      "name": "H06",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1142,7 +926,53 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "peca02.png",
+                  "image": "06a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "06a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "06b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1164,7 +994,7 @@
       ]
     },
     {
-      "name": "peca03",
+      "name": "H07",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1181,7 +1011,393 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "peca03.png",
+                  "image": "07a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "07a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "07b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H08",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "08a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "08a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "08b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H09",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "09a3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "09a4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "09b2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H10",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "10a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "10a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "10b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H11",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "11a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "11a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "11b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1211,7 +1427,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "ANIMACAO DO BOTOES",
+      "name": "SCREEN CORRENT",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1219,62 +1435,16 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "btVoltar",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "btAvancar",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "btFechar",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
+                "value": "VarGlobal"
               },
               "parameters": [
-                "btVoltar",
-                "",
-                "",
-                ""
+                "telacurrent",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -1286,7 +1456,7 @@
                 "value": "ChangeAnimation"
               },
               "parameters": [
-                "btVoltar",
+                "H01",
                 "=",
                 "1"
               ],
@@ -1306,7 +1476,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "btAvancar",
+                "H01",
                 "",
                 "",
                 ""
@@ -1321,146 +1491,9 @@
                 "value": "ChangeAnimation"
               },
               "parameters": [
-                "btAvancar",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "btFechar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "btFechar",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Quit"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "HISTORIC PAGE",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "H01P",
+                "H01",
                 "=",
                 "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "H01P",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "H01P",
-                "=",
-                "1"
               ],
               "subInstructions": []
             }
@@ -1491,20 +1524,8 @@
                   },
                   "parameters": [
                     "",
-                    "\"menu_consulta\"",
+                    "\"goniometro_simulador\"",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "telacurrent",
-                    "=",
-                    "6"
                   ],
                   "subInstructions": []
                 }
@@ -1512,274 +1533,6 @@
               "events": []
             }
           ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "ANIMACAO TEXTO SHOW/HIDEN",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "aguardeTrocaTxt"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "g01"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "g02"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "g03"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "g04"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "peca01"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "peca02"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "peca03"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "peca01",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_001",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_001",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "peca02",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_002",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_002",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "peca03",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_003",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_003",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_004",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_004",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         },
         {
           "disabled": false,
@@ -1789,169 +1542,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ObjectTimer"
+                "value": "VarGlobal"
               },
               "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "0.5"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "0.8"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "aguardeTrocaTxt",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "g01",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "peca01",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "peca01",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_001",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_001",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
+                "telacurrent",
+                "=",
                 "2"
               ],
               "subInstructions": []
@@ -1961,58 +1556,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "g02",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "peca02",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "peca02",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_002",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_002",
-                "+",
-                "150*TimeDelta()"
+                "H02",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -2027,11 +1576,80 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ObjectTimer"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
+                "H02",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H02",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador2\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
                 "3"
               ],
               "subInstructions": []
@@ -2041,58 +1659,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "g03",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "peca03",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "peca03",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_003",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_003",
-                "+",
-                "150*TimeDelta()"
+                "H03",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -2107,11 +1679,80 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ObjectTimer"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
+                "H03",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H03",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador3\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
                 "4"
               ],
               "subInstructions": []
@@ -2121,91 +1762,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "g04",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ind_004",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "txt_004",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "4.3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "aguardeTrocaTxt",
+                "H04",
                 "=",
-                "\"Clique em Avançar para proseguir ou Voltar para retornar a tela anterior\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "liberarVoltar",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "liberarAvancar",
-                "True"
+                "1"
               ],
               "subInstructions": []
             }
@@ -2220,35 +1782,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "liberarAvancar",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "btAvancar",
+                "H04",
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
               ],
               "subInstructions": []
             }
@@ -2257,12 +1797,80 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "",
-                "\"goniometro_simulador7\"",
-                ""
+                "H04",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador4\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H05",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -2277,35 +1885,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "liberarVoltar",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "btVoltar",
+                "H05",
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
               ],
               "subInstructions": []
             }
@@ -2314,17 +1900,669 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "",
-                "\"goniometro_simulador5\"",
-                ""
+                "H05",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador5\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
+                "6"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H06",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H06",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H06",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador6\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
+                "7"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H07",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H07",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H07",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador7\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
+                "8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H08",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H08",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H08",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador8\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
+                "9"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H09",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H09",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H09",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador9\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
+                "10"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H10",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H10",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H10",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador10\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "telacurrent",
+                "=",
+                "11"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H11",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H11",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H11",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"goniometro_simulador11\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "parameters": []

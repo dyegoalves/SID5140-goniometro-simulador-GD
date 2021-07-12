@@ -201,14 +201,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 330,
+      "height": 404,
       "layer": "",
       "locked": false,
       "name": "paineltxt",
       "persistentUuid": "82e621a6-b01c-4509-b405-5237a4fa946c",
-      "width": 600,
-      "x": 1222,
-      "y": 302,
+      "width": 659,
+      "x": 1193,
+      "y": 277,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,7 +222,7 @@
       "locked": false,
       "name": "txtPainel",
       "persistentUuid": "75e255cb-dc98-4aa9-8e39-f57d46ed6ddc",
-      "width": 553,
+      "width": 568,
       "x": 1247,
       "y": 361,
       "zOrder": 17,
@@ -271,9 +271,25 @@
       "name": "txt02",
       "persistentUuid": "7cc9e6c9-7660-4890-9fa9-45bb5cd6fa75",
       "width": 0,
-      "x": 1740,
-      "y": 140,
+      "x": 1700,
+      "y": 150,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "locked": false,
+      "name": "H01P",
+      "persistentUuid": "75d730a9-8976-4ccd-b59e-2384882106f2",
+      "width": 50,
+      "x": 1690,
+      "y": 30,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -746,7 +762,7 @@
       "behaviors": [],
       "string": "O goniômetro simples, também conhecido como transferidor de grau, é utilizado em medidas angulares que não necessitam extremo rigor. Sua menor divisão é de 1º (um grau). ",
       "font": "Verdana.ttf",
-      "characterSize": 30,
+      "characterSize": 35,
       "color": {
         "b": 74,
         "g": 74,
@@ -1001,6 +1017,122 @@
                   },
                   "parameters": [
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "HISTORIC PAGE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H01P",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H01P",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H01P",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"menu_consulta\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "telacurrent",
+                    "=",
+                    "2"
                   ],
                   "subInstructions": []
                 }

@@ -2106,28 +2106,435 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "peca03Zoom.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "peca03Zoom.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "peca03Zoom2.png",
         "kind": "image",
         "metadata": "",
         "name": "peca03Zoom2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "02a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "02a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "02a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "02a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "02b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "02b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "03a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "03a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "03a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "03a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "03b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "03b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "04a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "04a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "04a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "04a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "04b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "04b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "05a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "05a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "05a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "05a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "05b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "05b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "06a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "06a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "06a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "06a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "06b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "06b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "07a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "07a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "07a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "07a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "07b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "07b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "08a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "08a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "08a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "08a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "08b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "08b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "01A2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "01A2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "01A3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "01A3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "01B2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "01B2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "09a3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "09a3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "09a4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "09a4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "09b2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "09b2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "11a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "11a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "11b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pg4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pg5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pg5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pg23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pg23.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "name": "H01P",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pg4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pg23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pg5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "telacurrent",
+      "type": "string",
+      "value": "0"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2172,6 +2579,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/goniometro_simulador11"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu_consulta"
     }
   ],
   "externalEvents": [],

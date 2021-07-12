@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.48000000000000004
+    "zoomFactor": 0.3399999999999999
   },
   "objectsGroups": [
     {
@@ -209,7 +209,7 @@
       "persistentUuid": "5c95584f-b33a-4488-ba7f-c0ef996bfeaa",
       "width": 587,
       "x": 84,
-      "y": 201,
+      "y": 406,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -224,8 +224,8 @@
       "name": "txtPainel",
       "persistentUuid": "13eb71f2-353a-4f71-a04e-37028356e1e9",
       "width": 545,
-      "x": 105,
-      "y": 268,
+      "x": 110,
+      "y": 473,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,9 +342,25 @@
       "name": "txtTela",
       "persistentUuid": "e1400747-e16e-4ad9-a055-cec5e1cecb9c",
       "width": 0,
-      "x": 1740,
-      "y": 140,
+      "x": 1700,
+      "y": 150,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "locked": false,
+      "name": "H01P",
+      "persistentUuid": "afcc6ee0-319c-4cc6-9e6e-73a6ce77d71e",
+      "width": 50,
+      "x": 1690,
+      "y": 30,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -738,7 +754,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "• Afinal, o que é um goniômetro?",
+      "string": "&bull; Afinal, o que é um goniômetro?",
       "font": "Verdana.ttf",
       "characterSize": 35,
       "color": {
@@ -981,6 +997,25 @@
       },
       "absoluteCoordinates": true,
       "clearBetweenFrames": false
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "H01FF",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "1  2  3  4  5  6  7  8  9  10  11",
+      "font": "Verdana.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
     }
   ],
   "events": [
@@ -1169,6 +1204,122 @@
                   },
                   "parameters": [
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "HITORIC PAGE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H01P",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "H01P",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "H01P",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"menu_consulta\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "telacurrent",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -1649,7 +1800,7 @@
               "parameters": [
                 "aguardeTroca",
                 "=",
-                "\"Clique em Avançar para proseguir\""
+                "\"Clique em Avan&ccedil;ar para proseguir\""
               ],
               "subInstructions": []
             },
