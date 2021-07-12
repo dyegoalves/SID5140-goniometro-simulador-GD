@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.28999999999999976
+    "zoomFactor": 0.5499999999999999
   },
   "objectsGroups": [],
   "variables": [
@@ -328,16 +328,16 @@
       "initialVariables": []
     },
     {
-      "angle": 3,
+      "angle": 0,
       "customSize": true,
       "height": 45,
       "layer": "",
       "locked": false,
       "name": "reflgg4",
       "persistentUuid": "f58dd2d9-4d47-44ba-96db-3c75e12efc6f",
-      "width": 560,
-      "x": 399,
-      "y": 373,
+      "width": 420,
+      "x": 403,
+      "y": 389,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
