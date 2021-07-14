@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3899999999999997
+    "zoomFactor": 0.3299999999999996
   },
   "objectsGroups": [
     {
@@ -249,22 +249,6 @@
       "x": 1808,
       "y": 32,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "aguardeTrocaTxt",
-      "persistentUuid": "adb864a7-0863-44f6-81aa-e70f4da668e1",
-      "width": 0,
-      "x": 150,
-      "y": 995,
-      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -700,6 +684,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "aguardeTroca",
+      "persistentUuid": "a8769bb2-16c1-4de7-8ac4-bd254e5dba20",
+      "width": 0,
+      "x": 700,
+      "y": 995,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "aguardeTroca2",
+      "persistentUuid": "fc510b43-9805-458d-84f8-690e372adcd5",
+      "width": 0,
+      "x": 100,
+      "y": 995,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1060,25 +1076,6 @@
           ]
         }
       ]
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "aguardeTrocaTxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Aguarde ...",
-      "font": "Verdana.ttf",
-      "characterSize": 25,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
     },
     {
       "bold": true,
@@ -2202,16 +2199,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "aguardeTrocaTxt"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
                 "g01"
               ],
               "subInstructions": []
@@ -2551,6 +2538,16 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "aguardeTroca2"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -2616,17 +2613,6 @@
                 "txtTituloGONIOMETRO",
                 "+",
                 "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "aguardeTrocaTxt",
-                ""
               ],
               "subInstructions": []
             }
@@ -3172,12 +3158,21 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Cache"
               },
               "parameters": [
-                "aguardeTrocaTxt",
-                "=",
-                "\"Clique em Avançar para proseguir ou Voltar para retornar a tela anterior\""
+                "aguardeTroca"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "aguardeTroca2",
+                ""
               ],
               "subInstructions": []
             }

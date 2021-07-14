@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3999999999999997
+    "zoomFactor": 0.13999999999999962
   },
   "objectsGroups": [
     {
@@ -192,22 +192,6 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "aguardeTroca",
-      "persistentUuid": "adb864a7-0863-44f6-81aa-e70f4da668e1",
-      "width": 0,
-      "x": 150,
-      "y": 995,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
       "name": "txt01",
       "persistentUuid": "b4c80157-6191-4a0b-856b-bc02150f98a1",
       "width": 0,
@@ -364,6 +348,38 @@
           "value": 0
         }
       ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "aguardeTroca",
+      "persistentUuid": "d0f4a018-de2e-4321-ab39-017fe20317b0",
+      "width": 0,
+      "x": 700,
+      "y": 995,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "aguardeTroca2",
+      "persistentUuid": "2858ce29-2c67-4939-aad4-d6058c7ecf63",
+      "width": 0,
+      "x": 100,
+      "y": 995,
+      "zOrder": 26,
+      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
@@ -730,25 +746,6 @@
     {
       "bold": true,
       "italic": false,
-      "name": "aguardeTroca",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Aguarde ...",
-      "font": "Verdana.ttf",
-      "characterSize": 25,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
       "name": "txt02",
       "smoothed": true,
       "tags": "",
@@ -841,28 +838,6 @@
         "g": 74,
         "r": 74
       }
-    },
-    {
-      "name": "stopTg",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "behaviors": [],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true
     },
     {
       "name": "goniometroP",
@@ -4119,16 +4094,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "aguardeTroca"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
                 "pecaPrincipal"
               ],
               "subInstructions": []
@@ -4240,6 +4205,16 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "aguardeTroca2"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4283,39 +4258,6 @@
                 "txtTituloGONIOMETRO",
                 "+",
                 "100*TimeDelta()"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "txtTituloGONIOMETRO",
-                "\"timer\"",
-                "0.8"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "aguardeTroca",
-                ""
               ],
               "subInstructions": []
             }
@@ -4494,18 +4436,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "aguardeTroca",
-                "=",
-                "\"Clique em Avançar para proseguir ou Voltar para retornar a tela anterior\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "SetSceneVariableAsBoolean"
               },
               "parameters": [
@@ -4522,6 +4452,27 @@
               "parameters": [
                 "liberarAvancar",
                 "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "aguardeTroca"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "aguardeTroca2",
+                ""
               ],
               "subInstructions": []
             }

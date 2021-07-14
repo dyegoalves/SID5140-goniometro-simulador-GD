@@ -20,7 +20,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\app",
+    "latestCompilationDirectory": "C:\\Users\\dyego.alves\\Desktop\\app",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -2525,6 +2525,63 @@
           ]
         }
       ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "aguardeTroca",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Aguarde ...",
+      "font": "Verdana.ttf",
+      "characterSize": 25,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "aguardeTroca2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Clique em Avançar para proseguir ou Voltar para retornar a tela anterior",
+      "font": "Verdana.ttf",
+      "characterSize": 25,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "aguardeTroca01",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Clique em Avançar para proseguir",
+      "font": "Verdana.ttf",
+      "characterSize": 25,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
     }
   ],
   "objectsGroups": [],

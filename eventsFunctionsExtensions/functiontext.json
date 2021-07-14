@@ -40,30 +40,7 @@
               },
               "parameters": [
                 "Respostas",
-                "+"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "Respostas",
-                "\"126;211;33\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Respostas",
-                "=",
-                "\"A Resposta está correta\""
+                ""
               ],
               "subInstructions": []
             },
@@ -175,26 +152,13 @@
       "functionType": "Action",
       "name": "colorTextIncorrect",
       "private": false,
-      "sentence": "Collor text Incorrect   _PARAM1_,_PARAM2_,_PARAM3_,_PARAM4_,_PARAM5_,_PARAM6_",
+      "sentence": "Collor text Incorrect   _PARAM1_,_PARAM2_,_PARAM3_,_PARAM4_,_PARAM5_,_PARAM6_,_PARAM7_",
       "events": [
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "TELACURRENT",
-                "=",
-                "\"09\""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -202,7 +166,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Respostas",
+                "RespostasIC",
                 "+"
               ],
               "subInstructions": []
@@ -210,223 +174,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::ChangeColor"
+                "value": "Cache"
               },
               "parameters": [
-                "Respostas",
-                "\"230;11;11\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Respostas",
-                "=",
-                "\"Resposta incorreta!\nA correta seria A¹= 64º e B¹= 30'\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtA1",
-                "\"74;74;74\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtB1",
-                "\"74;74;74\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtB1vl",
-                "\"230;11;11\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtA1vl",
-                "\"230;11;11\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "TELACURRENT",
-                "=",
-                "\"10\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Respostas",
-                "+"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "Respostas",
-                "\"230;11;11\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Respostas",
-                "=",
-                "\"Resposta incorreta!\nA correta seria A²= 41º e B²= 50'\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtA1",
-                "\"74;74;74\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtB1",
-                "\"74;74;74\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtB1vl",
-                "\"230;11;11\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txtA1vl",
-                "\"230;11;11\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "TELACURRENT",
-                "=",
-                "\"11\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Respostas",
-                "+"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "Respostas",
-                "\"230;11;11\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Respostas",
-                "=",
-                "\"Resposta incorreta!\nA correta seria A³= 9º e B³= 15'\""
+                "RespostasC"
               ],
               "subInstructions": []
             },
@@ -482,9 +233,9 @@
         {
           "codeOnly": false,
           "defaultValue": "",
-          "description": "Respostas",
+          "description": "RespostasC",
           "longDescription": "",
-          "name": "Respostas",
+          "name": "RespostasC",
           "optional": false,
           "supplementaryInformation": "TextObject::Text",
           "type": "objectList"
@@ -535,6 +286,16 @@
           "description": "TELA NUMBER",
           "longDescription": "",
           "name": "TELACURRENT",
+          "optional": false,
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "RespostasIC",
+          "longDescription": "",
+          "name": "RespostasIC",
           "optional": false,
           "supplementaryInformation": "TextObject::Text",
           "type": "objectList"

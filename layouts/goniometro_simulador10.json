@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.45000000000000107
+    "zoomFactor": 0.2700000000000009
   },
   "objectsGroups": [
     {
@@ -224,22 +224,6 @@
       "x": 1808,
       "y": 32,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "aguardeTrocaTxt",
-      "persistentUuid": "adb864a7-0863-44f6-81aa-e70f4da668e1",
-      "width": 0,
-      "x": 150,
-      "y": 995,
-      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -884,11 +868,11 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Respostas",
+      "name": "RespostasCorreta",
       "persistentUuid": "9a3c82cc-d327-477c-a8d6-8b6f7dfbf075",
       "width": 0,
-      "x": 1205,
-      "y": 684,
+      "x": 1210,
+      "y": 700,
       "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
@@ -1014,6 +998,54 @@
       "x": 1690,
       "y": 30,
       "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "aguardeTroca",
+      "persistentUuid": "e5df714b-dd02-4e7f-85b6-f2f4e4a6d4ac",
+      "width": 0,
+      "x": 700,
+      "y": 995,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "aguardeTroca2",
+      "persistentUuid": "95cbb6e5-af40-496f-93de-d0cbd444b54b",
+      "width": 0,
+      "x": 100,
+      "y": 995,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "RespostasIncorrect",
+      "persistentUuid": "6995f17d-a443-4575-98bf-6f1d14d90e78",
+      "width": 0,
+      "x": 1205,
+      "y": 685,
+      "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1381,25 +1413,6 @@
     {
       "bold": true,
       "italic": false,
-      "name": "aguardeTrocaTxt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Aguarde ...",
-      "font": "Verdana.ttf",
-      "characterSize": 25,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
       "name": "txt02",
       "smoothed": true,
       "tags": "",
@@ -1553,45 +1566,6 @@
         "g": 74,
         "r": 74
       }
-    },
-    {
-      "name": "a1b1",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "ind012.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "bold": true,
@@ -2411,7 +2385,7 @@
     {
       "bold": true,
       "italic": false,
-      "name": "Respostas",
+      "name": "RespostasCorreta",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -2425,6 +2399,25 @@
         "b": 33,
         "g": 211,
         "r": 126
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "RespostasIncorrect",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Resposta incorreta!\nA correta seria A²= 41º e B²= 50'",
+      "font": "Verdana.ttf",
+      "characterSize": 25,
+      "color": {
+        "b": 11,
+        "g": 11,
+        "r": 230
       }
     },
     {
@@ -2571,7 +2564,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ANIMATIONS TEXTO SHOW / HIDEN",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2610,26 +2603,6 @@
               },
               "parameters": [
                 "txtTituloGONIOMETRO"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "aguardeTrocaTxt"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "Respostas"
               ],
               "subInstructions": []
             },
@@ -2752,18 +2725,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "a1b1",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "TextObject::Opacity"
               },
               "parameters": [
@@ -2794,6 +2755,36 @@
                 "ind01",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "aguardeTroca2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "RespostasCorreta"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "RespostasIncorrect"
               ],
               "subInstructions": []
             }
@@ -2891,17 +2882,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "aguardeTrocaTxt",
-                ""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -3137,20 +3117,7 @@
               "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "a1b1",
-                "+",
-                "150*TimeDelta()"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": []
         },
         {
@@ -3175,12 +3142,21 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Cache"
               },
               "parameters": [
-                "aguardeTrocaTxt",
-                "=",
-                "\"Clique em Avançar para proseguir ou Voltar para retornar a tela anterior\""
+                "aguardeTroca"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "aguardeTroca2",
+                ""
               ],
               "subInstructions": []
             },
@@ -3329,7 +3305,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "HISTORIC PAGE",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3928,7 +3904,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "KEYBOARD ANIMATIONS BUTTONS INPUTS  E BUTTONS A1 E B1",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4411,7 +4387,19 @@
                 "value": "TextObject::Size"
               },
               "parameters": [
-                "Respostas",
+                "RespostasCorreta",
+                "=",
+                "25"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Size"
+              },
+              "parameters": [
+                "RespostasIncorrect",
                 "=",
                 "25"
               ],
@@ -4501,7 +4489,7 @@
                       "parameters": [
                         "btConf",
                         ">=",
-                        "150"
+                        "80"
                       ],
                       "subInstructions": []
                     }
@@ -4514,7 +4502,7 @@
                       },
                       "parameters": [
                         "",
-                        "Respostas",
+                        "RespostasCorreta",
                         "txtA1",
                         "txtB1",
                         "txtA1vl",
@@ -4529,9 +4517,19 @@
                         "value": "TextObject::Size"
                       },
                       "parameters": [
-                        "Respostas",
+                        "RespostasCorreta",
                         "=",
                         "26"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RespostasIncorrect"
                       ],
                       "subInstructions": []
                     }
@@ -4575,7 +4573,7 @@
                       "parameters": [
                         "btConf",
                         ">=",
-                        "150"
+                        "80"
                       ],
                       "subInstructions": []
                     }
@@ -4588,12 +4586,14 @@
                       },
                       "parameters": [
                         "",
-                        "Respostas",
+                        "RespostasCorreta",
                         "txtA1",
                         "txtB1",
                         "txtA1vl",
                         "txtB1vl",
-                        "TELACURRENT"
+                        "TELACURRENT",
+                        "RespostasIncorrect",
+                        ""
                       ],
                       "subInstructions": []
                     },
@@ -4603,9 +4603,19 @@
                         "value": "TextObject::Size"
                       },
                       "parameters": [
-                        "Respostas",
+                        "RespostasIncorrect",
                         "=",
                         "26"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RespostasCorreta"
                       ],
                       "subInstructions": []
                     }
@@ -4649,7 +4659,7 @@
                       "parameters": [
                         "btConf",
                         ">=",
-                        "150"
+                        "80"
                       ],
                       "subInstructions": []
                     }
@@ -4662,12 +4672,24 @@
                       },
                       "parameters": [
                         "",
-                        "Respostas",
+                        "RespostasCorreta",
                         "txtA1",
                         "txtB1",
                         "txtA1vl",
                         "txtB1vl",
-                        "TELACURRENT"
+                        "TELACURRENT",
+                        "RespostasIncorrect",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RespostasCorreta"
                       ],
                       "subInstructions": []
                     },
@@ -4677,7 +4699,7 @@
                         "value": "TextObject::Size"
                       },
                       "parameters": [
-                        "Respostas",
+                        "RespostasIncorrect",
                         "=",
                         "26"
                       ],
@@ -4723,7 +4745,7 @@
                       "parameters": [
                         "btConf",
                         ">=",
-                        "150"
+                        "80"
                       ],
                       "subInstructions": []
                     }
@@ -4736,12 +4758,14 @@
                       },
                       "parameters": [
                         "",
-                        "Respostas",
+                        "RespostasCorreta",
                         "txtA1",
                         "txtB1",
                         "txtA1vl",
                         "txtB1vl",
-                        "TELACURRENT"
+                        "TELACURRENT",
+                        "RespostasIncorrect",
+                        ""
                       ],
                       "subInstructions": []
                     },
@@ -4751,9 +4775,19 @@
                         "value": "TextObject::Size"
                       },
                       "parameters": [
-                        "Respostas",
+                        "RespostasIncorrect",
                         "=",
                         "26"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RespostasCorreta"
                       ],
                       "subInstructions": []
                     }

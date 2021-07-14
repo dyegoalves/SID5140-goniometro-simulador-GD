@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3399999999999999
+    "zoomFactor": 0.21999999999999986
   },
   "objectsGroups": [
     {
@@ -310,7 +310,7 @@
       "name": "aguardeTroca",
       "persistentUuid": "adb864a7-0863-44f6-81aa-e70f4da668e1",
       "width": 0,
-      "x": 150,
+      "x": 700,
       "y": 995,
       "zOrder": 14,
       "numberProperties": [],
@@ -361,6 +361,22 @@
       "x": 1690,
       "y": 30,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "aguardeTroca01",
+      "persistentUuid": "073f6ef2-d5be-478c-951b-d8405b2ce3e3",
+      "width": 0,
+      "x": 450,
+      "y": 995,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -956,66 +972,6 @@
         "g": 74,
         "r": 74
       }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "aguardeTroca",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Aguarde ...",
-      "font": "Verdana.ttf",
-      "characterSize": 25,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
-      }
-    },
-    {
-      "name": "block",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "behaviors": [],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "absoluteCoordinates": true,
-      "clearBetweenFrames": false
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "H01FF",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "1  2  3  4  5  6  7  8  9  10  11",
-      "font": "Verdana.ttf",
-      "characterSize": 50,
-      "color": {
-        "b": 155,
-        "g": 155,
-        "r": 155
-      }
     }
   ],
   "events": [
@@ -1069,6 +1025,16 @@
                 "btFechar",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "aguardeTroca01"
               ],
               "subInstructions": []
             }
@@ -1795,12 +1761,21 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Montre"
               },
               "parameters": [
-                "aguardeTroca",
-                "=",
-                "\"Clique em Avançar para proseguir\""
+                "aguardeTroca01",
+                "="
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "aguardeTroca"
               ],
               "subInstructions": []
             },
