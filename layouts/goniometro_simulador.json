@@ -192,8 +192,8 @@
       "name": "txt01",
       "persistentUuid": "543c67d8-9fb1-414c-9510-7a6b46a68976",
       "width": 0,
-      "x": 84,
-      "y": 140,
+      "x": 86,
+      "y": 176,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -754,7 +754,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "&bull; Afinal, o que é um goniômetro?",
+      "string": "• Afinal, o que é um goniômetro?",
       "font": "Verdana.ttf",
       "characterSize": 35,
       "color": {
@@ -1800,7 +1800,7 @@
               "parameters": [
                 "aguardeTroca",
                 "=",
-                "\"Clique em Avan&ccedil;ar para proseguir\""
+                "\"Clique em Avançar para proseguir\""
               ],
               "subInstructions": []
             },
